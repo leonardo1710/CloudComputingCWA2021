@@ -1,0 +1,23 @@
+{
+  "name": "CloudPlatform",
+  "version": "0.0.1",
+  "description": "Course Contents of Cloud Computing Program - FH Campus Vienna",
+  "main": "index.js",
+  "authors": {
+    "name": "Leon Freudenthaler",
+    "email": "leon.freudenthaler@fh-campuswien.ac.at"
+  },
+  "repository": "/CloudPlatform",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@vue-a11y/dark-mode": "^1.1.1",
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
+  }
+}
