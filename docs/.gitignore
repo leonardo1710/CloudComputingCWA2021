@@ -2,4 +2,4 @@
 .cache
 .temp
 
-/dist
+src/.vuepress/dist/
