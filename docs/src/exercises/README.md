@@ -10,7 +10,7 @@ sidebar: auto
 - Moodle Quiz
 
 <p>
-<a href="/exercises/01-cloud-intro/" class="nav-link action-button">
+<a href="/CloudComputingCWA2021/exercises/01-cloud-intro/" class="nav-link action-button">
   Zur Übung →
 </a>
 </p>
@@ -21,7 +21,7 @@ sidebar: auto
 - Moodle Quiz
 
 <p>
-<a href="/exercises/01-cloud-intro/" class="nav-link action-button">
+<a href="/CloudComputingCWA2021/exercises/01-cloud-intro/" class="nav-link action-button">
   Zur Übung →
 </a>
 </p>
