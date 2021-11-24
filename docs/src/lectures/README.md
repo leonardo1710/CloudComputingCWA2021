@@ -16,7 +16,7 @@ sidebar: auto
 - Deployment Modelle
 
 <p>
-<a href="/CloudComputingCWA2021/lectures/intro-cloud" class="nav-link action-button">
+<a href="/CloudComputingCWA2021/lectures/01-cloud-intro/01-cloud-intro" class="nav-link action-button">
   Zur Einheit →
 </a>
 </p>
