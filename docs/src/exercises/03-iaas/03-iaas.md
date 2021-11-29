@@ -1,10 +1,19 @@
 ---
 lang: de-DE
-title: IaaS
+title: 03 Arbeitsauftrag - IaaS und Vorbereitung VCS
 sidebar: auto
 ---
 
-# 03 Arbeitsauftrag - IaaS und Vorbereitung VCS <Badge text="neu" />
+# {{ $frontmatter.title }}
+
+## Test Images
+
+1
+![An image](./img/create_vm.png)
+
+2
+<img :src="$withBase('./img/create_vm.png')" alt="foo">
+
 
 ## 1. Prerequisites
 - [Studierenden Account](https://azure.microsoft.com/de-de/free/students/) bei Microsoft Azure anlegen
