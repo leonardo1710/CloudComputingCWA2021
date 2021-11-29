@@ -36,7 +36,7 @@ Zuerst auf Azure einloggen.
 
 Entweder:
 - übers Webinterface öffnen (rechts oben "Cloud Shell")
-![CLI öffnen](/img/open_cli.png)
+![CLI öffnen](./img/open_cli.png)
 - oder in eigenem [Tab](https://shell.azure.com/bash)
 
 Danach `Bash Shell` auswählen und ggf. `Speicher erstellen` klicken. 
