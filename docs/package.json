@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@vue-a11y/dark-mode": "^1.1.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
   }
 }

@@ -77,5 +77,12 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    ["vuepress-plugin-code-copy", {
+        align: "top",
+        color: "#3eaf7c",
+        backgroundColor: "#5bc595", //#379c6f
+        }
+    ]
+    
   ]
 }
