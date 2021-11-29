@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Cloud Computing - CWA',
+  title: 'Cloud Computing 2021',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -38,10 +38,6 @@ module.exports = {
     search: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
         text: 'Lectures',
         link: '/lectures/'
       },
@@ -50,18 +46,7 @@ module.exports = {
         link: '/exercises/'
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-      
+    sidebar: {  
       '/lectures/': [
         {
           title: 'Lectures',

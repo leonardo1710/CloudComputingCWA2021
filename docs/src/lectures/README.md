@@ -50,27 +50,13 @@ sidebar: auto
 
 ---
 
-## 03 Skalierung in der Cloud
+## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS
 
-- Warum skalieren?
-- Horizontal
-- Vertikal
-- Diagonal
-- Skalierungsmöglichkeiten in der Cloud
-
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
-
----
-## 04 Infrastructure-as-a-Service - IaaS
-
-- The history and inner workings of virtualization
-- Virtual machines as a Service
-- Storage in the Cloud
-- Networking in the Cloud
+- IaaS Intro
+- Virtualisierung
+- Availability Zonen
+- Cloud Compute Ressourcen
+- Cloud Storage
 
 <p>
 <a href="/lectures/intro-cloud1/" class="nav-link action-button">
@@ -80,23 +66,7 @@ sidebar: auto
 
 ---
 
-## 05 Virtualisierung
-
-- Einführung in die Virtualisierung
-- Hypervisor
-- VM Pooling
-- Instanzen
-- Storage Typen
-
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
-
----
-
-## 06 Automatisierung
+## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment
 
 - Warum automatisieren?
 - Continuous Integration (CI)
@@ -112,12 +82,11 @@ sidebar: auto
 
 ---
 
-## 07 Platform-as-a-Service - PaaS
+## 05 Platform-as-a-Service - PaaS
 
 - Definition von PaaS
 - Hintegründe und Ziele
-- Übung
-  - CI/CD Workflow
+- Erstellung eines CI/CD Workflows
 
 <p>
 <a href="/lectures/intro-cloud1/" class="nav-link action-button">
@@ -127,7 +96,7 @@ sidebar: auto
 
 ---
 
-## 08 Containerization
+## 06 Containerization
 
 - Abgrenzung Container und VM
 - Container Images
@@ -143,7 +112,7 @@ sidebar: auto
 
 ---
 
-## 09 SaaS, FaaS, DBaaS, NaaS, CaaS
+## 07 SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS
 
 - Vorstellung unterschiedlichster Service Modelle
 
@@ -155,7 +124,7 @@ sidebar: auto
 
 ---
 
-## 10 Cloud Services
+## 08 Cloud Services
 
 - Application Services
 - Data Services
@@ -174,7 +143,12 @@ sidebar: auto
 
 ---
 
-## 11 Cloud Native Development
+---
+## 09 DevOps
+
+---
+
+## 10 Cloud Native Development
 
 - Intro
 

@@ -33,7 +33,6 @@ sidebar: auto
 - Erstellung einer VM in Azure
 - Automatische Konfiguration einer VM mit Cloud-init
 - Vorbereitung VCS und GIT
-- Moodle Quiz
 
 <p>
 <a href="/CloudComputingCWA2021/exercises/03-iaas/03-iaas" class="nav-link action-button">
