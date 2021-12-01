@@ -42,12 +42,13 @@ sidebar: auto
 - Ethernet
 - MAC
 
+<!-- Hier Download Button
 <p>
 <a href="/lectures/intro-cloud1/" class="nav-link action-button">
   Zur Einheit →
 </a>
 </p>
-
+-->
 ---
 
 ## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS
@@ -58,12 +59,13 @@ sidebar: auto
 - Cloud Compute Ressourcen
 - Cloud Storage
 
+<!--
 <p>
 <a href="/lectures/intro-cloud1/" class="nav-link action-button">
   Zur Einheit →
 </a>
 </p>
-
+-->
 ---
 
 ## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment
@@ -74,12 +76,6 @@ sidebar: auto
 - Version Control Systems (VCS)
   - GIT
 
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
-
 ---
 
 ## 05 Platform-as-a-Service - PaaS
@@ -87,12 +83,6 @@ sidebar: auto
 - Definition von PaaS
 - Hintegründe und Ziele
 - Erstellung eines CI/CD Workflows
-
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
 
 ---
 
@@ -104,23 +94,11 @@ sidebar: auto
 - Orchestrierung
 - Docker und Kubernetes
 
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
-
 ---
 
 ## 07 SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS
 
 - Vorstellung unterschiedlichster Service Modelle
-
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
 
 ---
 
@@ -135,27 +113,18 @@ sidebar: auto
   - Logging
   - DevOps
 
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
-
 ---
 
----
-## 09 DevOps
-
----
-
-## 10 Cloud Native Development
-
+## 09 Cloud Native Development
 - Intro
 
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
+
+---
+
+## 10 Prüfungsvorbereitung
+
+- Wiederholung der Modulinhalte
+- Ausarbeitung eines Fragenkatalogs
+- Q&A
 
 ---
