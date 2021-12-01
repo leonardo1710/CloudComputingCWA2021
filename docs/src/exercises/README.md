@@ -17,8 +17,7 @@ sidebar: auto
 
 ---
 
-[comment]: <> (Hide 02 and 03 before lectures)
-
+<!--
 ## 02 Recap Networking Technologies
 - Moodle Quiz
 
@@ -43,3 +42,4 @@ sidebar: auto
 </p>
 
 ---
+-->
