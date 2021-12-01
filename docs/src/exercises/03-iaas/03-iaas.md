@@ -26,6 +26,7 @@ In Gruppen:
   - [Virtualisieren der E/A](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-input-output/) - Gruppe 3
   - [Speicher- und Netzwerkvirtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-storage-network-virtualization/) - Gruppe 4
 - Jede Gruppe stellt in der kommenden Einheit (**10.12.2021**) ihr Lernmodul vor
+- Abgabe der Präsentation auf [Moodle]()
 
 ## 3. VMs in Azure
 

@@ -42,13 +42,6 @@ sidebar: auto
 - Ethernet
 - MAC
 
-<!-- Hier Download Button
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
--->
 ---
 
 ## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS
@@ -59,13 +52,6 @@ sidebar: auto
 - Cloud Compute Ressourcen
 - Cloud Storage
 
-<!--
-<p>
-<a href="/lectures/intro-cloud1/" class="nav-link action-button">
-  Zur Einheit →
-</a>
-</p>
--->
 ---
 
 ## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment
@@ -96,9 +82,10 @@ sidebar: auto
 
 ---
 
-## 07 SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS
+## 07 Everything-as-a-Service - XaaS
 
 - Vorstellung unterschiedlichster Service Modelle
+- SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS, ...
 
 ---
 
@@ -116,9 +103,17 @@ sidebar: auto
 ---
 
 ## 09 Cloud Native Development
-- Intro
+- Skalierbarkeit und State
+- 12-Faktor App
+- Monitoring
+- Microservice Architektur
 
+---
 
+## 10 Organisatorisch-rechtliche Bedingungen
+- DSGVO
+- Privacy Shield
+  
 ---
 
 ## 10 Prüfungsvorbereitung
