@@ -17,18 +17,6 @@ sidebar: auto
 
 ---
 
-<!--
-## 02 Recap Networking Technologies
-- Moodle Quiz
-
-<p>
-<a href="/CloudComputingCWA2021/exercises/02-networking" class="nav-link action-button">
-  Zur Übung →
-</a>
-</p>
-
----
-
 ## 03 IaaS und Vorbereitung VCS
 - Virtualisierungskurs von Microsoft
 - Erstellung einer VM in Azure
@@ -42,4 +30,17 @@ sidebar: auto
 </p>
 
 ---
--->
+
+## 04 Versionskontrolle und Kollaboration mit GIT
+- Repository klonen
+- Neues Remote Repository anlegen
+- Kollaboratives Arbeiten am Projekt
+- 
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/04-git/04-git" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---

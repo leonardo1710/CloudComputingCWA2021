@@ -52,15 +52,40 @@ sidebar: auto
 - Cloud Compute Ressourcen
 - Cloud Storage
 
+<p>
+<a href="/CloudComputingCWA2021/lectures/03-iaas/03-iaas" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/03-iaas/03-iaas" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
 ---
 
 ## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment
 
-- Warum automatisieren?
+- Version Control Systems (VCS)
+  - Ziele von VCS
+  - Typen von VCS (lokal, zentral, dezentral)
+  - GIT
 - Continuous Integration (CI)
 - Continuous Deployment (CD)
-- Version Control Systems (VCS)
-  - GIT
+
+<p>
+<a href="/CloudComputingCWA2021/lectures/04-git/04-git" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/04-git/04-git" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
 
 ---
 
