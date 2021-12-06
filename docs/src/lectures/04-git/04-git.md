@@ -9,7 +9,7 @@ sidebar: auto
 ## VCS
 *Version Control*, auch bekannt als *Source Control*, ist die Praxis des Trackings und der Verwaltung von Änderungen am Software Sourcecode. Versionskontrollsysteme sind Software-Tools, die Softwareentwicklungsteams dabei helfen, Änderungen am Quellcode im Laufe der Zeit zu verwalten. Version Control Systeme helfen Softwareteams, schneller und intelligenter zu arbeiten. Sie sind besonders nützlich für **DevOps-Teams**, da sie ihnen helfen, die Entwicklungszeit zu verkürzen und die erfolgreiche Bereitstellung von Code zu erhöhen.
 
-![Version Control](./img/version_control.png)
+![Version Control](./img/version_control1.png)
 
 Das Version Control System zeichnet jede Änderung am Code in einer speziellen Datenbank auf. Wird ein Fehler gemacht, können die Entwickler:innen "die Uhr zurückdrehen" und frühere Versionen des Codes vergleichen, um den Fehler zu beheben und gleichzeitig die Unterbrechung für alle Teammitglieder zu minimieren.
 

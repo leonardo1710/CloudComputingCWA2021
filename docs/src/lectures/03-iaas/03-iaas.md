@@ -43,7 +43,7 @@ Der Hypervisor ist eine spezielle Software, mit der eine oder mehrere virtuelle 
 
 **Typ 2 Hypervisor**: Typ 2 Hypervisors werden als *Host OS Hypervisor* bezeichnet. Diese Hypervisors werden auf einem Betriebssystem ausgeführt, ähnlich wie andere Computerprogramme. Dabei bietet der Hypervisor eine **Emulatorumgebung** zur Ausführung eines anderen Betriebssystems.  Mit anderen Worten: Ein Gastbetriebssystem läuft als Prozess auf dem Host. Bsp.: VMware Workstation, VirtualBox 
 
-![Hypervisor Typen](./img/hypervisor.png)
+![Hypervisor Typen](./img/hypervisor1.png)
 *Vergleich der Hypervisor Arten (Typ 1 und 2)*
 
 ### Emulation
