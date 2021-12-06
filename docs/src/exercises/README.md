@@ -5,7 +5,7 @@ description: Description of this page
 sidebar: auto
 ---
 
-## 01 Einführung in Cloud Computing <Badge text="neu" />
+## 01 Einführung in Cloud Computing
 - Cloud-Anbieter Recherche
 - Moodle Quiz
 
@@ -17,7 +17,7 @@ sidebar: auto
 
 ---
 
-## 03 IaaS und Vorbereitung VCS
+## 03 IaaS und Vorbereitung VCS <Badge text="neu" />
 - Virtualisierungskurs von Microsoft
 - Erstellung einer VM in Azure
 - Automatische Konfiguration einer VM mit Cloud-init
@@ -31,6 +31,7 @@ sidebar: auto
 
 ---
 
+<!--
 ## 04 Versionskontrolle und Kollaboration mit GIT
 - Repository klonen
 - Neues Remote Repository anlegen
@@ -43,4 +44,8 @@ sidebar: auto
 </a>
 </p>
 
+
 ---
+
+-->
+

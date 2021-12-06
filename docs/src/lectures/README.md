@@ -5,7 +5,7 @@ description: Description of this page
 sidebar: auto
 ---
 
-## 01 Einführung in Cloud Computing<Badge text="neu" />
+## 01 Einführung in Cloud Computing
 
 - Komponenten der Cloud
 - Aufbau Server und Datacenter
@@ -44,7 +44,7 @@ sidebar: auto
 
 ---
 
-## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS
+## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS <Badge text="neu" />
 
 - IaaS Intro
 - Virtualisierung
@@ -75,6 +75,7 @@ sidebar: auto
 - Continuous Integration (CI)
 - Continuous Deployment (CD)
 
+<!--
 <p>
 <a href="/CloudComputingCWA2021/lectures/04-git/04-git" class="nav-link action-button">
   Zur Einheit →
@@ -86,7 +87,7 @@ sidebar: auto
   Zur Übung →
 </a>
 </p>
-
+-->
 ---
 
 ## 05 Platform-as-a-Service - PaaS
