@@ -6,6 +6,18 @@ sidebar: auto
 
 # {{ $frontmatter.title }}
 
+## Aufgaben Übersicht
+::: tip Aufgaben
+* Virtualisierungskurs von Microsoft (Gruppenarbeit) 
+  * bis 10.12.
+  * Präsentation am **10.12.**
+* Erstellung VM in Azure und automatisierte Konfiguration mit Cloud-init (Gruppenarbeit) 
+  * Abgabe eines Learning Diary bis **15.12.** auf Moodle
+  * Learning Diary: Dokument, das einzelne Schritte mittels Beschreibung und Screenshots dokumentiert
+* Video zu GIT
+  * als Vorbereitung für Einheit am 10.12.
+:::
+
 ::: danger VM Ressourcen
 Um freie Einheiten einzusparen, bitte immer alle Ressourcen löschen, wenn diese nicht mehr genutzt werden!
 ```shell
