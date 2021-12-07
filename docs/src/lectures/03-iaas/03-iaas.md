@@ -162,6 +162,7 @@ Rechenressourcen (Compute Ressourcen) sind das Fundament der Cloud und spiegeln 
 | Virtuelles Netzwerk | Virtual Private Cloud (VPC) | Virtual Network (Vnet) | Google Virtual Private Cloud |
 | Instanzen           | Elastic Cloud Compute (EC2) | Virtual Machine        | Virtual Machine Instance     |
 
+
 ## IaaS Storage
 
 Was die Datenspeicherung angeht, funktionieren virtuelle Maschinen genauso wie physische PCs: Es gibt eine physische Festplatte (oder mehrere), auf der die Dateien gespeichert werden. Der Unterschied besteht darin, dass eine virtuelle Maschine in der Cloud eine verteilte Speicherarchitektur anstelle einer lokalen Festplatte verwenden kann. In einem verteilten Speichersystem werden die Daten nicht auf dem Rechner gespeichert, auf dem die virtuelle Maschine ausgeführt wird, so dass ein Hardwareausfall auf diesem Rechner nicht zu einem Datenverlust führt.
