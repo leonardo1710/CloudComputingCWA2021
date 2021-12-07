@@ -129,7 +129,7 @@ Die Aufteilung in ein virtuelles Netz:
 *Availability Zonen von Azure (2020). Source: Microsoft Azure*
 
 ## IaaS Compute Ressourcen
-Rechenressourcen (Compute Ressourcen) sind das Fundament der Cloud und spiegeln im weitesten Sinne das Innenleben und die Funktionalität eines Computers wide:
+Rechenressourcen (Compute Ressourcen) sind das Fundament der Cloud und spiegeln im weitesten Sinne das Innenleben und die Funktionalität eines Computers wider:
 * Storage (persistenter Speicher; HDD/SSD)
 * Memory (kurzzeitiger Speicher mit direktem Zugriff; RAM)
 * I/O
@@ -165,8 +165,8 @@ Was die Datenspeicherung angeht, funktionieren virtuelle Maschinen genauso wie p
 Ein verteiltes Speichersystem ist jedoch in der Regel entweder langsamer oder bei gleicher Leistung um ein Vielfaches teurer, so dass für einige Anwendungsfälle die Verwendung eines lokalen Speichers erforderlich sein kann.
 
 ### Network Block Storage
-Network Block Storage ist ein Blockspeicher, der über das Netz bereitgestellt wird. Der Block Storag ist im Allgemeinen nur für eine einzelne virtuelle Maschine geeignet. Es kann nicht von mehreren virtuellen Maschinen aus auf die Dateien zugreifen, die auf einem Blockspeichergerät gespeichert sind.
-Im Block Storage werden Informationen als gleichlange Blöcke gespeichert. Dabei werden die Speicherorte von einer Storage Software bestimmt und auch verteilt. Zum Auslesen der Blöcke, müssen diese über Adresse wieder zusammengesucht werden.
+Network Block Storage ist ein Blockspeicher, der über das Netz bereitgestellt wird. Der Block Storage ist im Allgemeinen nur für eine einzelne virtuelle Maschine geeignet. Es kann nicht von mehreren virtuellen Maschinen aus auf die Dateien zugegriffen werden, die auf einem Blockspeichergerät gespeichert sind.
+Im Block Storage werden Informationen als gleichlange Blöcke gespeichert. Dabei werden die Speicherorte von einer Storage Software bestimmt und auch verteilt. Zum Auslesen der Blöcke, müssen diese über deren Adressen wieder zusammengesucht werden.
 
 **Vorteile**: schnell, niedrige Latenz und Redundanz (möglich)
 

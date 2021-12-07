@@ -19,7 +19,7 @@ sidebar: auto
 :::
 
 ::: danger VM Ressourcen
-Um freie Einheiten einzusparen, bitte immer alle Ressourcen löschen, wenn diese nicht mehr genutzt werden!
+Um freie Einheiten einzusparen, bitte immer alle Ressourcen löschen, wenn diese nicht mehr genutzt werden! (Nicht vergessen, den Namen der Resource Group an den verwendeten anzupassen)
 ```shell
 az group delete --name myResourceGroup --no-wait --yes
 ```
@@ -38,7 +38,7 @@ In Gruppen:
   - [Virtualisieren der E/A](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-input-output/) - Gruppe 3
   - [Speicher- und Netzwerkvirtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-storage-network-virtualization/) - Gruppe 4
 - Jede Gruppe stellt in der kommenden Einheit (**10.12.2021**) ihr Lernmodul vor
-- Abgabe der Präsentation auf [Moodle]()
+- Abgabe der Präsentation auf [Moodle](https://moodle.fh-campuswien.ac.at/mod/assign/view.php?id=495870)
 
 ## 3. VMs in Azure
 
@@ -97,7 +97,7 @@ Wurde die VM erfolgreich angelegt, sollte das Ergebnis in der Shell wie folgt au
 :::
 
 ### SSH verbinden
-Mithilfer der IP-Adresse, des zuvor definierten Admin-Usernamen und des `ssh` Commands, kann man sich nun einfach mit der VM verbinden.
+Mithilfe der IP-Adresse, des zuvor definierten Admin-Usernamen und des `ssh` Commands, kann man sich nun einfach mit der VM verbinden.
 
 Wenn man via SSH verbunden ist, können Applikationen installiert und konfiguriert werden. 
 
