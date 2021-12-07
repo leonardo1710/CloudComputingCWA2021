@@ -156,7 +156,11 @@ Rechenressourcen (Compute Ressourcen) sind das Fundament der Cloud und spiegeln 
 
 ### Compute Services - Cloud Anbieter (Überblick)
 
-
+| Konzept             | AWS                         | Azure                  | Google Cloud Platform        |
+|---------------------|-----------------------------|------------------------|------------------------------|
+| Availability Zone   | Availability Zone           | Availability Zone      | Zone                         |
+| Virtuelles Netzwerk | Virtual Private Cloud (VPC) | Virtual Network (Vnet) | Google Virtual Private Cloud |
+| Instanzen           | Elastic Cloud Compute (EC2) | Virtual Machine        | Virtual Machine Instance     |
 
 ## IaaS Storage
 
