@@ -8,14 +8,12 @@ sidebar: auto
 
 ## Aufgaben Übersicht
 ::: tip Aufgaben
-* Virtualisierungskurs von Microsoft (Gruppenarbeit) 
-  * bis 10.12.
-  * Präsentation am **10.12.**
-* Erstellung VM in Azure und automatisierte Konfiguration mit Cloud-init (Gruppenarbeit) 
-  * Abgabe eines Learning Diary bis **15.12.** auf Moodle
-  * Learning Diary: Dokument, das einzelne Schritte mittels Beschreibung und Screenshots dokumentiert
 * Video zu GIT
-  * als Vorbereitung für Einheit am 10.12.
+  * als Vorbereitung für Einheit am **10.12.**
+* Erstellung VM in Azure und automatisierte Konfiguration mit Cloud-init (Gruppenarbeit) 
+  * Abgabe eines Learning Diary bis **TBD** auf Moodle
+  * Learning Diary: Dokument, das einzelne Schritte mittels Beschreibung und Screenshots dokumentiert
+* Freiwillig - Lernpfade zur Virtualisierung
 :::
 
 ::: danger VM Ressourcen
@@ -28,19 +26,7 @@ az group delete --name myResourceGroup --no-wait --yes
 ## 1. Prerequisites
 - [Studierenden Account](https://azure.microsoft.com/de-de/free/students/) bei Microsoft Azure anlegen
 
-## 2. [Lernpfad](https://docs.microsoft.com/de-de/learn/paths/cmu-cloud-computing-how-cloud-works/) zu Virtualisierung von Microsoft
-In Gruppen:
-- Modul [Grundlegendes zur Virtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualization-developer/) abschließen
-- (Optional) [Freigabe von Cloudressourcen](https://docs.microsoft.com/de-de/learn/modules/cmu-share-cloud-resources/) abschließen
-- Je Gruppe:
-  - [Virtualisieren der Rechenleistung](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-computing-power/) - Gruppe 1
-  - [Virtualisieren von Arbeitsspeicher](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-memory/) - Gruppe 2
-  - [Virtualisieren der E/A](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-input-output/) - Gruppe 3
-  - [Speicher- und Netzwerkvirtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-storage-network-virtualization/) - Gruppe 4
-- Jede Gruppe stellt in der kommenden Einheit (**10.12.2021**) ihr Lernmodul vor
-- Abgabe der Präsentation auf [Moodle](https://moodle.fh-campuswien.ac.at/mod/assign/view.php?id=495870)
-
-## 3. VMs in Azure
+## 2. VMs in Azure
 
 ### Azure Command Line Interface (CLI) öffnen
 * Auf Azure einloggen
@@ -167,7 +153,7 @@ In einem Browser kann nun die IP-Adresse der VM aufgerufen werden.
 
 ![Running Nginx](./img/nginx_preview.png)
 
-## 4. Automatische Konfiguration einer VM mit Cloud-init
+## 3. Automatische Konfiguration einer VM mit Cloud-init
 [Cloud-init](https://cloud-init.io/) wird verwendet, um Linux VMs beim Boot anzupassen (bspw. Pakete zu installieren, Dateien schreiben, Benutzer und Sicherheit konfigurieren). 
 
 Cloud-init funktioniert auch **distributionsübergreifend**. Zum Beispiel muss nicht `apt-get install` oder `yum install`, zur Installation von Paketen verwendet werden. Stattdessen kann eine Liste der zu installierenden Pakete definiert werden. Cloud-init verwendet automatisch das systemeigene **Paketmanagement-Tool** der ausgewählten Distribution.
@@ -257,12 +243,20 @@ Nicht vergessen, die erstellten Ressourcen wieder zu löschen!
 az group delete --name myResourceGroup --no-wait --yes
 ```
 
-## 5. Video zu VCS und GIT
+## 4. Video zu VCS und GIT
 Als Vorbereitung für die kommende Einheit bitte folgendes Video zu Version Control Systemen und GIT anschauen: 
 
 [![GIT Intro Video](https://img.youtube.com/vi/8JJ101D3knE/0.jpg)](https://www.youtube.com/watch?v=8JJ101D3knE)
 
-## Zusätzliches
+## Freiwillige [Lernpfade](https://docs.microsoft.com/de-de/learn/paths/cmu-cloud-computing-how-cloud-works/) zu Virtualisierung von Microsoft
+- [Grundlegendes zur Virtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualization-developer/)
+- [Freigabe von Cloudressourcen](https://docs.microsoft.com/de-de/learn/modules/cmu-share-cloud-resources/)
+- [Virtualisieren der Rechenleistung](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-computing-power/)
+- [Virtualisieren von Arbeitsspeicher](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-memory/)
+- [Virtualisieren der E/A](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-input-output/)
+- [Speicher- und Netzwerkvirtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-storage-network-virtualization/)
+
+## Azure erweitert
 
 ### Verfügbare Images in Azure anzeigen
 

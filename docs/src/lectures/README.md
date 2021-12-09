@@ -44,7 +44,7 @@ sidebar: auto
 
 ---
 
-## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS <Badge text="neu" />
+## 03 Virtualisierung und Infrastructure-as-a-Service - IaaS
 
 - IaaS Intro
 - Virtualisierung
@@ -66,16 +66,14 @@ sidebar: auto
 
 ---
 
-## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment
+## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment <Badge text="neu" />
 
-- Version Control Systems (VCS)
-  - Ziele von VCS
-  - Typen von VCS (lokal, zentral, dezentral)
-  - GIT
 - Continuous Integration (CI)
 - Continuous Deployment (CD)
+- Version Control Systems (VCS)
+  - Ziele von VCS
+  - GIT
 
-<!--
 <p>
 <a href="/CloudComputingCWA2021/lectures/04-git/04-git" class="nav-link action-button">
   Zur Einheit →
@@ -87,14 +85,14 @@ sidebar: auto
   Zur Übung →
 </a>
 </p>
--->
+
 ---
 
 ## 05 Platform-as-a-Service - PaaS
 
 - Definition von PaaS
 - Hintegründe und Ziele
-- Erstellung eines CI/CD Workflows
+- Erstellung eines CI/CD Workflows mit PaaS
 
 ---
 

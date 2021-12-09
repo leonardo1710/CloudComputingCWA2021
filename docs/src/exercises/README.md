@@ -17,8 +17,7 @@ sidebar: auto
 
 ---
 
-## 03 IaaS und Vorbereitung VCS <Badge text="neu" />
-- Virtualisierungskurs von Microsoft
+## 03 IaaS und Vorbereitung VCS
 - Erstellung einer VM in Azure
 - Automatische Konfiguration einer VM mit Cloud-init
 - Vorbereitung VCS und GIT
@@ -31,12 +30,10 @@ sidebar: auto
 
 ---
 
-<!--
-## 04 Versionskontrolle und Kollaboration mit GIT
+## 04 Versionskontrolle und Kollaboration mit GIT <Badge text="neu" />
 - Repository klonen
 - Neues Remote Repository anlegen
 - Kollaboratives Arbeiten am Projekt
-- 
 
 <p>
 <a href="/CloudComputingCWA2021/exercises/04-git/04-git" class="nav-link action-button">
@@ -44,8 +41,6 @@ sidebar: auto
 </a>
 </p>
 
-
 ---
 
--->
 

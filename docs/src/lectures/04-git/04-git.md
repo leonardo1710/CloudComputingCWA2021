@@ -1,13 +1,48 @@
 ---
 lang: de-DE
-title: 04 Version Control Systeme (GIT) - CI und CD
+title: 04 Version Control Systeme (GIT) - CI/CD Intro
 sidebar: auto
 ---
 
 # {{ $frontmatter.title }}
 
+## Automatisierung
+Wie bereits aus vorherigen Einheiten bekannt ist, ist das Ziel des **Cloud Computing**, einen einfachen, skalierbaren Zugang zu Computerressourcen und IT-Services zu bieten. Beginnend bei der Infrastruktur (Server, virtuelle Maschinen, Netzwerke usw.) bis hin zur Bereitstellung von Applikationen über das Internet. Weiters ist es ein fundamentales Ziel des Cloud Computing diese Bereitstellung zu **automatisieren**, da manuelle Arbeitsschritte nicht nur langsamer und mühsamer sind, sondern auch fehleranfällig.
+
+In dieser Einheit werden wir uns auf die automatisierte Bereitstellung von Software/Applikationen konzentrieren. Dabei werden wir uns die einzelnen Schritte von der Entwicklung der Software, über das Testen von Software, sowie deren Bereitstellung in der sogenannten **CI/CD Pipeline** genauer anschauen. 
+
+## CI und CD
+CI/CD ist eine Methode zur Entwicklung von Software, bei der man in der Lage ist, Updates einer Applikation (Änderungen, neue Features, Bug Fixes, etc.) **jederzeit** auf nachhaltige Weise zu veröffentlichen (Release).
+*CI/CD* steht für die kombinierten Praktiken von Continuous Integration (CI) und Continuous Delivery/Deployment (CD).
+
+### Workflow
+Alles beginnt mit der Entwicklung der Applikation. Das Development-Team programmiert eine Anwendung mit einem beliebigen Technologie-Stack, verschiedenen Programmiersprachen, unterschiedlichsten Build-Tools etc. Sie haben ein Code-Repository, um im Team an dem Code zu arbeiten. Eines der beliebtesten ist **Git**, das in den folgenden Abschnitten noch genauer beschrieben wird. 
+
+Wurden bestimmte Features oder Änderungen fertig programmiert, sollen diese Änderungen nun in den Source Code integriert werden. Dabei wird der Source Code mit den Änderungen zusammengeführt und gebuildet. Unter **Build** versteht man, die Kompilierung des Source Code in eines vom Computer ausführbaren Programms (bspw. Java Programm kompilieren und in ausführbares JAR File). Um die Qualitätsanforderungen und die Funktionalität der Software zu gewährleisten, werden parallel zur Software auch sogenannte Software-Tests entwickelt (bspw. Unit Tests). 
+
+In einer CI/CD Pipeline werden diese Tests nach der Build-Phase ausgeführt. Erst wenn in der Build-Phase und in der Test-Phase keine Fehler aufgetreten sind, darf die Änderung des Codes in den richtigen Sourcecode (meistens *main* oder *master* genannt) integriert werden. Der bisher beschriebene Prozess wird als **Continuous Integration** bezeichnet.
+
+**Continuous Delivery/Deployment** automatisiert die Bereitstellung der Anwendung in einer ausgewählten Infrastrukturumgebung. Die meisten Teams arbeiten mit mehreren Umgebungen neben der Produktionsumgebung, sogenannten Entwicklungs- und Testumgebungen. Beispielsweise arbeiten die Developer:innen mit unterschiedlichen Betriebssystemen (Microsoft, Linux, IOS), die Produktionsumgebung ist jedoch ein Server in der Cloud, der mit dem OS Ubuntu betrieben wird. CD stellt sicher, dass es eine automatisierte Möglichkeit gibt, Codeänderungen in diese Umgebungen zu übertragen und zu testen.
+
+![CI CD Pipeline](./img/cicd_pipeline.png)
+
+### CI/CD Prinzipien
+
+* **Modularer Aufbau:** Das System sollte so aufgebaut sein, dass iterative Releases unterstützt werden. Vermeiden einer engen Kopplung zwischen den Komponenten. Implementierung von Metriken, die helfen, Probleme in Echtzeit zu erkennen.
+* **Test-driven Development:** Praktizieren einer testgetriebene Entwicklung, um den Code stets in einem einsatzfähigen Zustand zu halten. Umfassende und solide automatisierte Testsuite. 
+* **Kleine Iterationen:** Die neuen Features sollten immer so klein gehalten werden, dass sie innerhalb weniger Tage umgesetzt werden können.
+* **Produktionsnahes Staging:** Das Entwicklungsteam kann Code in produktionsähnliche Staging-Umgebungen pushen. Dadurch wird sichergestellt, dass die neue Version der Software auch in der Produktionsumgebung funktioniert.
+* **Sofortige Bereitstellung:** Jeder kann jede Version der Software bei Bedarf auf Knopfdruck in jeder Umgebung bereitstellen. 
+* **"You build it, you run it":** Alle autonomen Entwicklungsteams sollten für die Qualität und Stabilität der von ihnen erstellten Software verantwortlich sein.
+
+::: tip Wann betreibe ich CI/CD?
+Wenn jeder Entwickler und jede Entwicklerin im Team die Arbeit unterbrechen und die aktuelle Entwicklungsversion des Codes innerhalb von 20 Minuten oder weniger in die Produktion überführen kann, ohne dass sich jemand Gedanken darüber macht, was passieren könnte - 
+
+Herzlichen Glückwunsch, in diesem Fall wird CI/CD erfolgreich umgesetzt!
+:::
+
 ## VCS
-*Version Control*, auch bekannt als *Source Control*, ist die Praxis des Trackings und der Verwaltung von Änderungen am Software Sourcecode. Versionskontrollsysteme sind Software-Tools, die Softwareentwicklungsteams dabei helfen, Änderungen am Quellcode im Laufe der Zeit zu verwalten. Version Control Systeme helfen Softwareteams, schneller und intelligenter zu arbeiten. Sie sind besonders nützlich für **DevOps-Teams**, da sie ihnen helfen, die Entwicklungszeit zu verkürzen und die erfolgreiche Bereitstellung von Code zu erhöhen.
+*Version Control*, auch bekannt als *Source Control*, ist die Praxis des Trackings und der Verwaltung von Änderungen am Software Sourcecode. Versionskontrollsysteme sind Software-Tools, die Softwareentwicklungsteams dabei helfen, Änderungen am Quellcode im Laufe der Zeit zu verwalten. Version Control Systeme helfen Softwareteams, schneller und intelligenter zu arbeiten. Sie sind besonders nützlich für **DevOps-Teams** und **CI/CD**, da sie helfen, die Entwicklungszeit zu verkürzen und die erfolgreiche Bereitstellung von Code zu erhöhen.
 
 ![Version Control](./img/version_control1.png)
 
@@ -28,22 +63,26 @@ Die Versionskontrolle hilft Teams bei der Lösung solcher Probleme, indem sie je
 6. **Nachvollziehbarkeit**. Wenn man in der Lage ist, jede an der Software vorgenommene Änderung nachzuvollziehen und sie mit Projektmanagement- und Fehlerverfolgungssoftware zu verbinden, und wenn man in der Lage ist, jede Änderung mit einer Nachricht zu versehen, die den Zweck und die Absicht der Änderung beschreibt, kann das nicht nur bei der Ursachenanalyse und anderen forensischen Untersuchungen helfen. Die kommentierte Historie des Codes zur Hand zu haben, wenn man den Code liest und versucht zu verstehen, was er tut und warum er so konzipiert ist, kann es den Entwicklern ermöglichen, korrekte und harmonische Änderungen vorzunehmen, die im Einklang mit dem beabsichtigten langfristigen Design des Systems stehen. Dies kann besonders wichtig sein, um effektiv mit altem Code zu arbeiten, und ist von entscheidender Bedeutung, wenn es darum geht, dass Entwickler zukünftige Arbeiten genau einschätzen können.
 
 
-## Best Practices
-> Regelmäßige Commits
-> 
-> Regelmäßiges Fetching der Letztversion
-> 
-> Aussagekräftige Commit Messages
-> 
-> Branches verwenden
-> 
-> Workflow festlegen
+::: tip VCS Best Practices
+* Regelmäßige Commits
+* Regelmäßiges Fetching der Letztversion
+* Aussagekräftige Commit Messages
+* Branches verwenden
+* Workflow festlegen
+:::
 
+## GIT
+Git ist ein **verteiltes Open-Source Version Control System**.
+**Verteilt/Dezentral**: Git besteht aus einem *Remote Repository*, das auf einem Server gespeichert ist, und lokalen Repositories, die jeweils auf dem Computers jedes Entwicklers und jeder Entwicklering gespeichert ist. Das bedeutet, dass der Code nicht nur auf einem zentralen Server gespeichert ist, sondern die vollständige Kopie des Codes auf allen Computern des Entwicklungsteams vorhanden ist. 
 
-## Typen von VCS
+**Video zu Grundfunktionalitäten von Git:**
+[![GIT Intro Video](https://img.youtube.com/vi/8JJ101D3knE/0.jpg)](https://www.youtube.com/watch?v=8JJ101D3knE)
 
-### Lokales VCS
+## Arbeitsauftrag
+Im folgenden Arbeitsauftrag sollen erste Erfahrungen mit GIT gesammelt werden.
 
-### Zentrales VCS
-
-### Dezentrales VCS
+<p>
+<a href="/CloudComputingCWA2021/exercises/04-git/04-git" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
