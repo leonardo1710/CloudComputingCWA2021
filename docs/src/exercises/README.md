@@ -33,7 +33,7 @@ sidebar: auto
 ## 04 Versionskontrolle und Kollaboration mit GIT <Badge text="neu" />
 - Repository klonen
 - Neues Remote Repository anlegen
-- Kollaboratives Arbeiten am Projekt
+- Kollaboratives Arbeiten am Projekt (Branching und Merging)
 
 <p>
 <a href="/CloudComputingCWA2021/exercises/04-git/04-git" class="nav-link action-button">

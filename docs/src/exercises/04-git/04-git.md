@@ -11,7 +11,7 @@ Aufgabe ist es, in Gruppen GIT anhand einer Web Applikation auszuprobieren. Folg
 * Ein eigenes Remote Repository für die Gruppe aufsetzen (Github, Gitlab, Bitbucket, ...)
 * Restliches Team klont das neue Remote Repository 
 * Durchführen von Änderungen (lokal) und Änderungen ins Remote Repository pushen
-* Erstellung von mindestens einem Branch
+* Erstellung von mindestens einem Branch je Teammitglied
 * Änderungen im Branch vornehmen und Branch wieder in `master` Branch mergen
 * Link zum Remote-Repository auf Moodle abgeben
   
@@ -117,7 +117,7 @@ An dieser Stelle können jetzt alle Teammitglieder mit dem `git clone` Command v
 
 
 ### Weitere Arbeitsaufträge
-Da das Initialsetup des Projekts jetzt bei allen Teammitgliedern funktioniert, kann mit der eigentlich Git Übung begonnen werden. Folgendes ist zu tun:
+Da das Initialsetup des Projekts jetzt bei allen Teammitgliedern funktioniert, kann mit der eigentlichen Git Übung begonnen werden. Folgendes ist zu tun:
 * Jedes Teammitglied macht Änderungen im lokalen Repository und pusht diese in die Remote (siehe Workflow von zuvor)
 * Jedes Teammitglied erstellt einen **Branch**, macht Änderungen in dem Branch und **merged** diesen Branch wieder in den `main` Branch
 * Alles soll auch immer im Remote-Repository festgehalten werden!
@@ -125,6 +125,8 @@ Da das Initialsetup des Projekts jetzt bei allen Teammitgliedern funktioniert, k
 Falls manche Schritte nicht klar sind, bitte noch einmal das Video von der letzten Übung schauen. Weiters gibt es ein Cheatsheet im Anhang, falls manche Commands entfallen sind.
 
 ### Abgabe 
+
+Repository URL und Teammitglieder in [Moodle](https://moodle.fh-campuswien.ac.at/mod/assign/view.php?id=498586) abgeben.
 
 ## Git Cheatsheet
 ![Git Cheatsheet](./img/git_cheatsheet.png)
