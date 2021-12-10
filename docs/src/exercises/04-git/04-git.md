@@ -77,7 +77,7 @@ git add .
 ### `Commit` der Änderungen im lokalen Repository
 Der `git commit` Command erzeugt einen **Snapshot** der aktuellen Projektversion (aus der Staging Area). Diese Snapshots werden in Git versioniert und nicht mehr geändert (außer man macht das explizit). Somit kann das Projekt immer auf eine bestimmte Version zurückgesetzt werden. 
 ``` git
-git commit -m "Meine erste Commit Message."
+git commit -m "my first commit"
 ```
 
 ### Erstellung eines Remote Repository
@@ -85,7 +85,7 @@ Damit kollaborativ an dem Projekt gearbeitet werden kann, muss ein zentrales Rem
 Bei GitHub kann man [hier](https://github.com/new) ein neues Repository anlegen.
 
 ::: warning Achtung
-Bitte beim Anlegen des Remote Repository kein README File oder .gitignore File auswählen, sonst kann es zu Konflikten mit dem lokalen Repository kommen.
+Beim Anlegen des Remote Repository kein README.md File oder .gitignore File auswählen, sonst kann es zu Konflikten mit dem lokalen Repository kommen. Das Repository `public` kennzeichnen, damit ich bei der Abgabe die Commit-Historie einsehen kann.
 :::
 
 In folgendem Beispiel kann man die Auswahl bei GitHub sehen:
@@ -112,7 +112,9 @@ git push origin main
 Wurde das lokale Repository erfolgreich gepusht, solltet ihr diese Änderungen auch auf GitHub sehen können: Alle lokalen Files sind nun auch hier zu finden:
 ![Github nach erfolgreichem Push](./img/remote_github.png)
 
-An dieser Stelle können jetzt alle Teammitglieder mit dem `git clone` Command von zuvor, das neue Repository klonen. 
+An dieser Stelle können jetzt alle Teammitglieder mit dem `git clone` Command von zuvor, das neue Repository klonen. Damit die anderen auch autonom in das Remote Repository pushen können, müssen sie noch als **Contributors** hinzugefügt werden:
+* Auf GitHub im Repository unter `Settings` -> `Manage access` -> `Add people` -> GitHub Username oder E-Mail Adresse auswählen
+
 
 ### Weitere Arbeitsaufträge
 Da das Initialsetup des Projekts jetzt bei allen Teammitgliedern funktioniert, kann mit der eigentlich Git Übung begonnen werden. Folgendes ist zu tun:
@@ -121,6 +123,8 @@ Da das Initialsetup des Projekts jetzt bei allen Teammitgliedern funktioniert, k
 * Alles soll auch immer im Remote-Repository festgehalten werden!
   
 Falls manche Schritte nicht klar sind, bitte noch einmal das Video von der letzten Übung schauen. Weiters gibt es ein Cheatsheet im Anhang, falls manche Commands entfallen sind.
+
+### Abgabe 
 
 ## Git Cheatsheet
 ![Git Cheatsheet](./img/git_cheatsheet.png)
