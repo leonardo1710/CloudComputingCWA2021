@@ -52,3 +52,8 @@ Da Infrastructure-as-a-Service bei PaaS inbegriffen ist, bietet PaaS dieselben V
   Zur Übung →
 </a>
 </p>
+
+## Literatur und Ressourcen
+> * Lisdorf Anders, "Cloud Computing Basics - A Non-Technical Introduction", Apress, 2021
+> * Manvi Sunilkumar and Shyam Gopal Krishna, "Cloud Computing - Concepts and Technologies", CRC Press, 2021
+> * Azure, Microsoft, https://azure.microsoft.com/, Zugriff am 09.12.2021
