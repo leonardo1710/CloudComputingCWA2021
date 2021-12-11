@@ -21,11 +21,15 @@ Aufgabe ist es, in Gruppen GIT anhand einer Web Applikation auszuprobieren. Folg
 * Installation [GIT](https://git-scm.com/downloads)
 * Account anlegen bei einem Git Repository Hosting Service ([GitHub](https://github.com/), [Bitbucket](https://bitbucket.org/), [Gitlab](https://gitlab.com/), etc. )
 
+::: warning Projekt Setup
+Das Projekt Setup muss nur 1 Teammitglied machen!
+:::
+
 ## 2. Projekt Setup
 Zum Ausprobieren von Git wird in diesem Arbeitsauftrag eine simple Web Applikation zur Verfügung gestellt. Somit sind **keine Programmiererfahrungen** im weitesten Sinne notwendig. Wollt ihr in eurem Team ein eigenes Projekt nutzen und an diesem mit GIT arbeiten ist das auch möglich. In diesem Fall bitte den Punkt [Projekt klonen](#projekt-klonen) überspringen.
 Weiters muss nicht die **Git Bash** verwendet werden. Es kann auch ein Git Client wie [GitHub Desktop](https://desktop.github.com/) oder [Sourcetree](https://www.sourcetreeapp.com/) verwendet werden.
 
-### Projekt klonen
+### Projekt klonen - intial 
 Bei der Web Applikation handelt es sich um eine Static Webpage, die mithilfe von [VuePress](https://vuepress.vuejs.org/guide/) erstellt wurde. VuePress ist ein Static Site Generator, der dabei hilft statische Webpages sehr einfach zu erstellen. Dabei können Markdown Files, HTML-Files aber auch das Framework Vue.js verwendet werden. Das Projekt-Setup ist bereits integriert und funktioniert Out-of-the-Box. Für diesen Arbeitsauftrag sind keinerlei Vue.js Kenntnisse notwendig, wir konzentrieren uns nur auf die Versionskontroller mit GIT. 
 
 ``` git
@@ -39,7 +43,7 @@ Damit die Verbindung zur Remote entfernt wird, muss zuerst im erstellten Verzeic
 Unter Windows wird der `.git` Folder eventuell nicht angezeigt. Dazu muss zuerst die Anzeigen von versteckten Ordnern aktiviert werden [siehe hier](https://support.microsoft.com/de-de/windows/anzeigen-versteckter-dateien-0320fe58-0117-fd59-6851-9b7f9840fdb2)
 :::
 
-### Projekt starten
+### Projekt starten (optional)
 Damit die Web Applikation ausgeführt werden kann, müssen zuerst alle notwendigen Dependencies installiert werden. Ausführung bspw. mithilfe der Command Shell im Projektordner:
 
 ```
@@ -52,8 +56,6 @@ npm run docs:dev
 ```
 Wenn das Projekt erfolgreich gebuildet wurde, sollte in der Shell nun die Adresse stehen, auf der die Web Applikation lokal gehostet wird. Bspw.: `VuePress dev server listening at http://localhost:8081/`
 Um die Web Applikation anzusehen, kann die URL in einem Browser aufgerufen werden.
-
-## 3. Git
 
 ### Lokales Git Repository initialisieren
 Nun muss ein neues Repository initialisiert werden (mithilfe von Git Bash im Projektordner):
@@ -112,11 +114,32 @@ git push origin main
 Wurde das lokale Repository erfolgreich gepusht, solltet ihr diese Änderungen auch auf GitHub sehen können: Alle lokalen Files sind nun auch hier zu finden:
 ![Github nach erfolgreichem Push](./img/remote_github.png)
 
+## 3. Klonen des neuen Remote Repository
 An dieser Stelle können jetzt alle Teammitglieder mit dem `git clone` Command von zuvor, das neue Repository klonen. Damit die anderen auch autonom in das Remote Repository pushen können, müssen sie noch als **Contributors** hinzugefügt werden:
 * Auf GitHub im Repository unter `Settings` -> `Manage access` -> `Add people` -> GitHub Username oder E-Mail Adresse auswählen
 
+``` git
+git clone <YOUR_REPOSITORY_URL>
+```
+Der `git clone` Command initialisiert bei allen anderen Teammitgliedern automatisch das notwendige Git Repository. Nun können alle Teammitglieder Änderungen in den Files machen, Änderungen in die Staging Area hinzufügen, committen und auf die Remote pushen.
 
-### Weitere Arbeitsaufträge
+
+Änderungen durchfühen, dann:
+``` git
+git add .
+git commit -m "changed file x"
+git push origin main
+```
+
+## 4. Änderungen der Remote **pullen**
+Wurden von einem Teammitglied Änderungen auf die Remote gepusht, müssen alle anderen ihre lokalen Repositories aktualisieren (neuesten Stand des Projektes integrieren). Mittels `fetch` kann geschaut werden ob es Änderungen auf der Remote gibt. Mit `pull` werden die Änderungen in das lokale Repository gemerged.
+
+``` git
+git fetch origin main
+git pull origin main
+```
+
+## 5. Weitere Arbeitsaufträge
 Da das Initialsetup des Projekts jetzt bei allen Teammitgliedern funktioniert, kann mit der eigentlichen Git Übung begonnen werden. Folgendes ist zu tun:
 * Jedes Teammitglied macht Änderungen im lokalen Repository und pusht diese in die Remote (siehe Workflow von zuvor)
 * Jedes Teammitglied erstellt einen **Branch**, macht Änderungen in dem Branch und **merged** diesen Branch wieder in den `main` Branch

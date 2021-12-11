@@ -66,7 +66,7 @@ sidebar: auto
 
 ---
 
-## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment <Badge text="neu" />
+## 04 Automatisierung - VCS (GIT), Continuous Integration und Continuous Deployment
 
 - Continuous Integration (CI)
 - Continuous Deployment (CD)
@@ -88,11 +88,23 @@ sidebar: auto
 
 ---
 
-## 05 Platform-as-a-Service - PaaS
+## 05 Platform-as-a-Service - PaaS <Badge text="neu" />
 
 - Definition von PaaS
-- Hintegründe und Ziele
+- Anwendungsbereiche und Vorteile
 - Erstellung eines CI/CD Workflows mit PaaS
+
+<p>
+<a href="/CloudComputingCWA2021/lectures/05-paas/05-paas" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/05-cicd/05-cicd" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
 
 ---
 
@@ -140,7 +152,7 @@ sidebar: auto
   
 ---
 
-## 10 Prüfungsvorbereitung
+## 11 Prüfungsvorbereitung
 
 - Wiederholung der Modulinhalte
 - Ausarbeitung eines Fragenkatalogs

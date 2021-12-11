@@ -30,13 +30,26 @@ sidebar: auto
 
 ---
 
-## 04 Versionskontrolle und Kollaboration mit GIT <Badge text="neu" />
+## 04 Versionskontrolle und Kollaboration mit GIT
 - Repository klonen
 - Neues Remote Repository anlegen
 - Kollaboratives Arbeiten am Projekt (Branching und Merging)
 
 <p>
 <a href="/CloudComputingCWA2021/exercises/04-git/04-git" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+
+## 05 CI/CD Pipeline <Badge text="neu" />
+- Erstellung eines GitHub Actions Workflow
+- Konfiguration des Workflow
+- Autodeploy bei Push-Event auf GitHub Pages
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/05-cicd/05-cicd" class="nav-link action-button">
   Zur Übung →
 </a>
 </p>
