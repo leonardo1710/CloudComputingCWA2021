@@ -248,11 +248,11 @@ Wenn ihr jetzt in euer Github Repository schaut, solltet ihr einerseits unter de
 ## GitHub Pages aktivieren
 Nun ist der Workflow fertig konfiguriert. Jetzt muss nur mehr GitHub Pages aktiviert werden. Dazu im Repository unter `Settings` -> `Pages` als Source den `gh-pages` Branch auswählen.
 
-![setup gh-pages](./img/setup_ghpages.png)
+![setup gh-pages](./img/setup_ghpages1.png)
 
 Das Deployment der Page könnte ein paar Minuten dauern. Wartet etwas und refresht dann die Seite. Wenn GitHub Pages fertig eingerichtet ist, sollte in grün *"Your site is published at https://username.github.io/app-name/"* stehen. Klickt auf den Link um das Ergebnis zu sehen:
 
-![Gehostete Page](./img/hostet_page.png)
+![Gehostete Page](./img/hostet_page1.png)
 
 Sehr gut. Die CI/CD Pipeline ist fertig erstellt. Ab sofort wird die Seite immer automatisch neu deployed, wenn in den `release` Branch gepusht wird.
 
