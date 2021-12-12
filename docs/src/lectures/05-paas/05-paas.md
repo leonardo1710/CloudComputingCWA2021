@@ -8,7 +8,7 @@ sidebar: auto
 
 ## Was ist PaaS?
 
-Platform-as-a-Service ist eine vollständige Entwicklungs- und Bereitstellungsumgebung in der Cloud, über die man Zugang zu den erforderlichen Ressourcen erhält, um verschiedenste Lösungen bereitstellen zu können – von einfachen cloudbasierten Apps bis hin zu ausgereiften cloudfähigen Unternehmensanwendungen. Somit richtet sich PaaS vor allem an
+Platform-as-a-Service ist eine vollständige Entwicklungs- und Bereitstellungsumgebung in der Cloud, über die man Zugang zu den erforderlichen Ressourcen erhält, um verschiedenste Lösungen bereitstellen zu können – von einfachen cloudbasierten Apps bis hin zu ausgereiften cloudfähigen Unternehmensanwendungen. Somit richtet sich PaaS vor allem an Entwickler:innen.
 
 Genau wie IaaS umfasst PaaS Infrastrukturkomponenten wie Server, Speicher und Netzwerkelemente. Zusätzlich bietet PaaS auch Middleware, Entwicklungstools, BI-Dienste (Business Intelligence), Datenbankverwaltungssysteme und mehr. Mit PaaS lässt sich der gesamte Webanwendungs-Lebenszyklus unterstützen – vom Erstellen, Testen und Bereitstellen der Anwendungen bis hin zu deren Verwaltung und Aktualisierung.
 

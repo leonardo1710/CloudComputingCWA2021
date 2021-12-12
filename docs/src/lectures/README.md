@@ -116,6 +116,19 @@ sidebar: auto
 - Orchestrierung
 - Docker und Kubernetes
 
+<!--
+<p>
+<a href="/CloudComputingCWA2021/lectures/06-containerization/06-containerization" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/06-containerization/06-containerization" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+-->
 ---
 
 ## 07 Everything-as-a-Service - XaaS
