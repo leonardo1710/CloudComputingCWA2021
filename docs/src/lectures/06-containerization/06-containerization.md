@@ -7,7 +7,7 @@ sidebar: auto
 # {{ $frontmatter.title }}
 
 ## Was ist Containerization?
-Containerisierung ist das Kapsel von Sourcecode in Pakete (Container), die alle erforderlichen Komponenten wie Libraries, Frameworks und andere Dependencies enthalten und in ihrem *Container* isoliert werden.
+Containerisierung ist das Kapseln von Sourcecode in Pakete (Container), die alle erforderlichen Komponenten wie Libraries, Frameworks und andere Dependencies enthalten und in ihrem *Container* isoliert werden.
 
 Auf diese Weise kann die Applikation innerhalb ihres Containers in jede Umgebung verschoben und konsistent auf jeder Infrastruktur ausgeführt werden, **unabhängig von der Umgebung oder dem Betriebssystem der Infrastruktur**. Der Container fungiert als eine Art Rechenumgebung, die eine Anwendung umgibt und sie von ihrem Umfeld **unabhängig** macht. Es handelt sich im Grunde genommen um eine voll funktionsfähige tragbare Rechenumgebung.
 
@@ -30,8 +30,28 @@ Während VMs gut mit herkömmlicher monolithischer IT-Architektur zusammenarbeit
 ![Container vs. VM](./img/container_vs_vm.png)
 *Container vs. VM. Source: [Docker](https://www.docker.com/blog/containers-replacing-virtual-machines/)*
 
+## Wann verwendet man Container?
+::: tip Wann Container und wann VM?
+* VMs lösen Infrastrukturprobleme, indem sie es Unternehmen ermöglichen, mehr aus Servern herauszuholen und eine begrenzte Workload-Portabilität zu ermöglichen.
+
+* Container lösen Anwendungsprobleme, indem sie DevOps, CI/CD verbessern, Microservices ermöglichen, die Portabilität erhöhen und die Ressourcennutzung weiter verbessern.
+::: 
+
+Es gibt zwar immer noch viele Gründe für den Einsatz von VMs, aber Container bieten ein Maß an Flexibilität und Portabilität, das perfekt für die **Multi-Cloud-Welt**(wenn mehr als 1 Deploymentmodell genutzt wird) ist. Wenn Entwickler:innen neue Anwendungen erstellen, wissen sie möglicherweise nicht, an welchen Orten sie eingesetzt werden müssen. Heute führt ein Unternehmen die Anwendung vielleicht in seiner privaten Cloud aus, aber morgen muss sie vielleicht in einer öffentlichen Cloud eines anderen Anbieters bereitgestellt werden. Die Containerisierung von Anwendungen bietet Teams die Flexibilität, die sie benötigen, um mit den vielen Softwareumgebungen der modernen IT umzugehen. 
+
+Container sind auch ideal für die Automatisierung und DevOps-Pipelines, einschließlich der Implementierung von Continuous Integration und Continuous Deployment (CI/CD).
+
 ## Was ist Docker?
-Docker ist eine Containerisierungsplattform, die zum Entwickeln, Verteilen und Ausführen von Containern verwendet wird. Docker verwendet keinen Hypervisor, und kann auf dem Computer ausgeführt werden (bspw. beim Entwickeln und Testen von Applikationen). Die Desktopversion von Docker unterstützt Linux, Windows und macOS. Für Produktionssysteme ist Docker für Serverumgebungen verfügbar, darunter viele Varianten von Linux und Microsoft Windows Server 2016 und höher. Viele Clouds unterstützen Docker.
+Docker ist eine Containerisierungsplattform, die zum Entwickeln, Verteilen und Ausführen von Containern verwendet wird. Docker verwendet keinen Hypervisor, und kann auf dem Computer ausgeführt werden (bspw. beim Entwickeln und Testen von Applikationen). Die Desktopversion von Docker unterstützt Linux, Windows und macOS. Für Produktionssysteme ist Docker für Serverumgebungen verfügbar, darunter viele Varianten von Linux und Microsoft Windows Server 2016 und höher. Fast alle großen Cloud Provider unterstützen Docker.
+
+::: tip Kurzfassung
+*Docker is an engine for running virtual operating systems that is extremely light weight.*
+
+*It let’s us run Linux operating systems in isolated environments very quickly.*
+
+*You don’t need to worry about what host system the user is running — as long as they have Docker, the sourcecode will run.*
+:::
+
 
 ### Docker Architektur
 Die Docker Plattform besteht aus mehreren Komponenten:

@@ -43,7 +43,7 @@ sidebar: auto
 
 ---
 
-## 05 CI/CD Pipeline <Badge text="neu" />
+## 05 CI/CD Pipeline
 - Erstellung eines GitHub Actions Workflow
 - Konfiguration des Workflow
 - Autodeploy bei Push-Event auf GitHub Pages
@@ -57,3 +57,14 @@ sidebar: auto
 ---
 
 
+## 06 Docker Intro <Badge text="neu" />
+- Ausprobieren von Docker Commands im Docker Playground
+- Kennenlernen des Docker Environments
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/06-containerization/06-containerization" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---

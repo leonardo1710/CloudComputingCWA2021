@@ -88,7 +88,7 @@ sidebar: auto
 
 ---
 
-## 05 Platform-as-a-Service - PaaS <Badge text="neu" />
+## 05 Platform-as-a-Service - PaaS
 
 - Definition von PaaS
 - Anwendungsbereiche und Vorteile
@@ -108,7 +108,7 @@ sidebar: auto
 
 ---
 
-## 06 Containerization
+## 06 Containerization <Badge text="neu" />
 
 - Abgrenzung Container und VM
 - Container Images
@@ -116,7 +116,6 @@ sidebar: auto
 - Orchestrierung
 - Docker und Kubernetes
 
-<!--
 <p>
 <a href="/CloudComputingCWA2021/lectures/06-containerization/06-containerization" class="nav-link action-button">
   Zur Einheit →
@@ -128,7 +127,7 @@ sidebar: auto
   Zur Übung →
 </a>
 </p>
--->
+
 ---
 
 ## 07 Everything-as-a-Service - XaaS
