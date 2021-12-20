@@ -54,8 +54,8 @@ Dieser Command startet das Ubuntu Image und übergibt gleich auch ein Command an
 
 Wie ihr bereits wisst, können wir mit dem Command `docker ls` alle laufenden Container ausgeben. Da unser Container wieder gestoppt wurde, wird diese nicht angezeigt. Mit dem `docker ls -a` Command, können wir uns aber alle vergangenen Ausführungen von Containern anzeigen lassen:
 ``` shell
-docker ls # Lists running docker containers
-docker ls -a # Lists running and stopped docker containers
+docker container ls # Lists running docker containers
+docker container ls -a # Lists running and stopped docker containers
 ```
 
 ### 02 Container Command Line
@@ -156,7 +156,7 @@ Die Commands in Großbuchstaben sind Teil der "Dockerfile-Sprache".
 
 **COPY**: Kopiert ein File vom Host in unseren Container.
 
-**RUN**: Führt Shell Commandos aus, als befänden wir uns direkt im Terminal des Containers. In unserem Fall wird mithilfe von `chmod +x` vergeben wir Ausführungsrechte (execution) auf das `pyramid.sh` File. Der Command `sed -i 's/\r//' /pyramid.sh` soll Linebreak Probleme zwischen Unix und Windows vorbeugen. Windows verwendet `CRLF` während Unix `LF` Linebreaks verwendet - wenn ihr also auf einem Windows Rechner arbeitet, kann es sein, dass das `pyramid.sh` für nicht in Ubuntu (Container) ausgeführt werden kann. Mit dem Command tauschen wir alle `CRLF` gegen `LF` aus. Hier finden Interessierte mehr Informationen zum [Linebreak-Problem](https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/#crlf-vs-lf-what-are-line-endings-anyway).
+**RUN**: Führt Shell Commandos aus, als befänden wir uns direkt im Terminal des Containers. In unserem Fall vergeben wir mithilfe von `chmod +x` Ausführungsrechte (execution) auf das `pyramid.sh` File. Der Command `sed -i 's/\r//' /pyramid.sh` soll Linebreak Probleme zwischen Unix und Windows vorbeugen. Windows verwendet `CRLF` während Unix `LF` Linebreaks verwendet - wenn ihr also auf einem Windows Rechner arbeitet, kann es sein, dass das `pyramid.sh` nicht in Ubuntu (Container) ausgeführt werden kann. Mit dem Command tauschen wir alle `CRLF` gegen `LF` aus. Hier finden Interessierte mehr Informationen zum [Linebreak-Problem](https://www.aleksandrhovhannisyan.com/blog/crlf-vs-lf-normalizing-line-endings-in-git/#crlf-vs-lf-what-are-line-endings-anyway).
 
 **CMD**: Command der nach dem Start des Containers ausgeführt werden soll.
 
@@ -242,8 +242,7 @@ docker run pyramid 3
 Mounting funktioniert in Docker wie folgt:
 `docker run -v <HOST_DIRECTORY>:<CONTAINER_DIRECTORY>`
 
-In unserem Fall wollen wir das Verzeichnis des Projekts in das Verzeichnis `/mounted` im Container mounten. 
-Je nachdem welches Betriebssystem ihr verwendet (Linux/MacOS oder Windows), wird für das Host-Directory (wenn man das aktuelle Verzeichnis mounten will) `$(pwd)` oder `cd` verwendet:
+In unserem Fall wollen wir das Verzeichnis des Projekts in das Verzeichnis `/mounted` im Container mounten:
 
 ``` shell
 cd ../  # switch to project directory
@@ -306,9 +305,10 @@ CMD python server.py
 ```
 
 **FROM**: diesmal starten wir anstelle von Ubuntu mit einem Python Image. Dh. auf diesem Image ist Python vorinstalliert.
+
 **WORKDIR**: erstellt das Directory `/app`, wenn es nicht existiert und wechselt in das Verzeichnis
-**EXPOSE**:
-Flask, läuft standardmäßig am Port 5000
+
+**EXPOSE**:Flask, läuft standardmäßig am Port 5000
 
 **Networking** in Docker erfordert 2 Schritte:
 1. Container Port öffnen mit `EXPOSE`
