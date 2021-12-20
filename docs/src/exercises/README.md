@@ -100,7 +100,7 @@ sidebar: auto
 
 ---
 
-## 07.2 Docker-Compose <Badge text="neu" />
+## 07.2 Prometheus mit Docker <Badge text="neu" />
 - Prometheus Setup
 - Container mit Prometheus analysieren
 
