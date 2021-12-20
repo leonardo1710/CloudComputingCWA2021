@@ -57,12 +57,55 @@ sidebar: auto
 ---
 
 
-## 06 Docker Intro <Badge text="neu" />
+## 06.1 Docker Intro
 - Ausprobieren von Docker Commands im Docker Playground
 - Kennenlernen des Docker Environments
 
 <p>
 <a href="/CloudComputingCWA2021/exercises/06-containerization/06-containerization" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+
+## 06.2 Docker Advanced <Badge text="neu" />
+- Docker Recap
+- Dockerfiles
+- Mounting in Containern
+- Docker Volumes
+- Container Ports
+- Docker Layer Caching (DLC)
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/06-docker/06-docker" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+
+## 07.1 Docker-Compose <Badge text="neu" />
+- Docker Compose
+- Microservices
+- Networking zwischen Containern
+- Docker Hub
+- Best Practices
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/06-docker-compose/06-docker-compose" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+
+## 07.2 Docker-Compose <Badge text="neu" />
+- Prometheus Setup
+- Container mit Prometheus analysieren
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/07-monitoring/07-monitoring" class="nav-link action-button">
   Zur Übung →
 </a>
 </p>

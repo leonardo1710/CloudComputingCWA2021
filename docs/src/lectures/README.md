@@ -108,7 +108,7 @@ sidebar: auto
 
 ---
 
-## 06 Containerization <Badge text="neu" />
+## 06 Containerization
 
 - Abgrenzung Container und VM
 - Container Images
@@ -124,20 +124,48 @@ sidebar: auto
 
 <p>
 <a href="/CloudComputingCWA2021/exercises/06-containerization/06-containerization" class="nav-link action-button">
-  Zur Übung →
+  Zur Übung (Teil 1) →
+</a>
+</p>
+<p>
+<a href="/CloudComputingCWA2021/exercises/06-docker/06-docker" class="nav-link action-button">
+  Zur Übung (Teil 2) →
+</a><Badge text="neu" />
+</p>
+
+---
+
+## 07 Cloud Native Development <Badge text="neu" />
+- Microservice Architektur
+- 12-Faktor App
+- Service Monitoring
+
+<p>
+<a href="/CloudComputingCWA2021/lectures/07-cloud-native/07-cloud-native" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+<p>
+<a href="/CloudComputingCWA2021/exercises/06-docker-compose/06-docker-compose" class="nav-link action-button">
+  Zur Übung (Teil 1) →
+</a>
+</p>
+<p>
+<a href="/CloudComputingCWA2021/exercises/07-monitoring/07-monitoring" class="nav-link action-button">
+  Zur Übung (Teil 2) →
 </a>
 </p>
 
 ---
 
-## 07 Everything-as-a-Service - XaaS
+## 08 Everything-as-a-Service - XaaS
 
 - Vorstellung unterschiedlichster Service Modelle
 - SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS, ...
 
 ---
 
-## 08 Cloud Services
+## 09 Cloud Services
 
 - Application Services
 - Data Services
@@ -147,14 +175,6 @@ sidebar: auto
   - Deployment
   - Logging
   - DevOps
-
----
-
-## 09 Cloud Native Development
-- Skalierbarkeit und State
-- 12-Faktor App
-- Monitoring
-- Microservice Architektur
 
 ---
 

@@ -28,20 +28,20 @@ In dieser Einheit werden wir das online Lab von Docker für eine erste Intro in 
 
 Der Playground startet daraufhin einen neuen Node + IP Adresse. Weiters sollte die Commandline geöffnet werden (siehe Abbildung oben).
 
-Wie es der Brauch in der IT will beginnen wir den Tutorial mit einer *Hello World*-App. Dazu werden wir mithilfe des `run` Commands einen neuen Container erstellen:
+Wie es der Brauch in der IT will, beginnen wir den Tutorial mit einer *Hello World*-App. Dazu werden wir mithilfe des `run` Commands einen neuen Container erstellen:
 
 ``` shell
 docker container run hello-world
 ```
 
-Die Ausgabe des Containers `hello-world` verrät ein wenig über das, was gerade passiert ist. Im Wesentlichen hat die **Docker-Engine**, die in eurem Terminal läuft, versucht, ein Image namens `hello-world` zu finden. Da ihr gerade erst angefangt habt mit der Instanz zu arbeiten, sind keine Images lokal gespeichert ("*Unable to find image...*"), also geht die Docker-Engine zur **Standard-Docker-Registry**, dem **Docker Hub**, und sucht nach einem Image mit dem Namen `hello-world`. Sie findet das Image dort, lädt es herunter und führt es in einem Container aus. Die einzige Funktion von `hello-world` besteht darin, den Text "*Hello from Docker!*" auszugeben, den ihr auch im Terminal sehen solltet. Danach wird der Container beendet.
+Die Ausgabe des Containers `hello-world` verrät ein wenig über das, was gerade passiert ist. Im Wesentlichen hat die **Docker-Engine**, die in eurem Terminal läuft, versucht, ein Image namens `hello-world` zu finden. Da ihr gerade erst angefangen habt mit der Instanz zu arbeiten, sind keine Images lokal gespeichert ("*Unable to find image...*"), also geht die Docker-Engine zur **Standard-Docker-Registry**, dem **Docker Hub**, und sucht nach einem Image mit dem Namen `hello-world`. Sie findet das Image dort, lädt es herunter und führt es in einem Container aus. Die einzige Funktion von `hello-world` besteht darin, den Text "*Hello from Docker!*" auszugeben, den ihr auch im Terminal sehen solltet. Danach wird der Container beendet.
 
 ![Container Erstellen Workflow](./img/create_container_workflow.png)
 
 ## Docker Images
 Im weiteren Verlauf dieser Übung werden wir einen *Alpine-Linux-Container* ausführen. Alpine ist eine leichtgewichtige Linux-Distribution, die schnell heruntergeladen und ausgeführt werden kann, was sie zu einem beliebten Ausgangspunkt für viele andere Images macht.
 
-Um loszulegen `pullen` wir einmal das Apline Image aus der **Docker Registry**:
+Um loszulegen `pullen` wir einmal das Alpine Image aus der **Docker Registry**:
 ``` shell
 docker image pull alpine
 ```
@@ -85,9 +85,9 @@ Was ist passiert? Es sieht so aus, als wäre nichts passiert, aber mit dem Befeh
 ``` shell
 docker container run -it alpine /bin/sh
 ```
-Jetzt befindet ihr euch innerhalb des Containers in einer Linux-Shell und können einige Befehle wie `ls -l`, `uname -a` und andere ausprobieren. Beachtez, dass Alpine ein kleines Linux-Betriebssystem ist und daher einige Befehle fehlen könnten. Die Shell könnt ihr mit dem `exit` Befehl verlassen. 
+Jetzt befindet ihr euch innerhalb des Containers in einer Linux-Shell und könnt einige Befehle wie `ls -l`, `uname -a` und andere ausprobieren. Beachtet, dass Alpine ein kleines Linux-Betriebssystem ist und daher einige Befehle fehlen könnten. Die Shell könnt ihr mit dem `exit` Befehl verlassen. 
 
-Ok, wir haben gesagt, dass wir jeden unserer Befehle oben in einer separaten Container-Instanz ausgeführt haben. Wir können diese Instanzen mit dem Befehl docker container ls sehen. Das Kommando docker container ls zeigt euch alle Container an, die gerade laufen:
+Ok, wir haben gesagt, dass wir jeden unserer Befehle oben in einer separaten Container-Instanz ausgeführt haben. Wir können diese Instanzen mit dem Befehl `docker container ls` sehen. Das Kommando `docker container ls` zeigt euch alle Container an, die gerade laufen:
 
 ``` shell
 docker container ls
@@ -105,12 +105,12 @@ Um mehr über `run` zu erfahren, verwendet `docker container run --help`, um ein
 ## Container Isolation
 In den obigen Schritten haben wir mehrere Befehle über Container-Instanzen mit Hilfe von `docker container run` ausgeführt. Der Befehl `docker container ls -a` zeigte uns, dass mehrere Container aufgelistet waren. Warum sind so viele Container aufgelistet, wenn sie alle aus dem Alpine-Image stammen?
 
-Das ist ein kritisches Sicherheitskonzept aus der Welt der Docker-Container. Obwohl jeder **Docker-Container Run Command** dasselbe Alpine-Image verwendet, ist jede Ausführung ein **separater, isolierter** Container. Jeder Container hat ein eigenes Dateisystem und läuft in einem anderen Namespace; standardmäßig hat ein Container keine Möglichkeit, mit anderen Containern zu interagieren, auch nicht mit denen aus demselben Image. Versuchen wir eine weitere Übung, um mehr zur Isolation zu lernen.
+Das ist ein kritisches Sicherheitskonzept aus der Welt der Docker-Container. Obwohl jeder **Docker-Container `Run` Command** dasselbe Alpine-Image verwendet, ist jede Ausführung ein **separater, isolierter** Container. Jeder Container hat ein eigenes Dateisystem und läuft in einem anderen Namespace; standardmäßig hat ein Container keine Möglichkeit, mit anderen Containern zu interagieren, auch nicht mit denen aus demselben Image. Versuchen wir eine weitere Übung, um mehr zur Isolation zu lernen.
 
 ``` shell
 docker container run -it alpine /bin/ash
 ```
-Die `/bin/ash` ist ein weiterer Shell-Typ, der im Alpine-Image verfügbar ist. Sobald der Container gestartet ist und ihr euch in der Eingabeaufforderung des Containers befindez, gebt die folgenden Befehle ein:
+Die `/bin/ash` ist ein weiterer Shell-Typ, der im Alpine-Image verfügbar ist. Sobald der Container gestartet ist und ihr euch in der Eingabeaufforderung des Containers befindet, gebt die folgenden Befehle ein:
 
 ``` shell
  echo "hello world" > hello.txt
