@@ -364,7 +364,7 @@ Unter `localhost:5002` solltet ihr jetzt die Frontend Applikation sehen.
 
 ![Books Frontend](./img/books_frontend.png)
 
-Unter `localhost:5001` solltet ihr die Bücher von der book-api sehen können. 
+Unter `localhost:5001/books` solltet ihr die Bücher von der book-api sehen können. 
 
 > Alternativ kann die `book-api` auch mit [Postman](https://www.postman.com/) untersucht werden.
 

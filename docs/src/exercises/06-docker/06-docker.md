@@ -555,7 +555,7 @@ Damit wir den Host jetzt wieder etwas aufräumen und keinen unnötigen Speicherp
 ``` shell
 docker stop $(docker ps -a -q)   # Stops all containers
 docker rm $(docker ps -a -q)     # Removes all stopped containers
-docker rmi $(docker images -a)   # Remove all images
+docker rmi $(docker images -aq)   # Remove all images
 ```
 
 
