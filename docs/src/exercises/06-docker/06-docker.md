@@ -308,7 +308,7 @@ CMD python server.py
 
 **WORKDIR**: erstellt das Directory `/app`, wenn es nicht existiert und wechselt in das Verzeichnis
 
-**EXPOSE**:Flask, läuft standardmäßig am Port 5000
+**EXPOSE**: Flask, läuft standardmäßig am Port 5000
 
 **Networking** in Docker erfordert 2 Schritte:
 1. Container Port öffnen mit `EXPOSE`
@@ -349,6 +349,7 @@ docker stop <YOUR_CONTAINER_ID>
 docker rm <YOUR_CONTAINER_ID>
 ```
 Es gibt auch einen Shortcut, um alle laufenden Container zu stoppen und zu löschen:
+
 ``` shell
 docker stop $(docker ps -a -q)   # Stops all containers
 docker rm $(docker ps -a -q)     # Removes all stopped containers
