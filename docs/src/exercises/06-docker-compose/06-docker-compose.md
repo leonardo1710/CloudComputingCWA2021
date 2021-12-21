@@ -1,6 +1,6 @@
 ---
 lang: de-DE
-title: 06.3 Arbeitsauftrag - Docker-Compose
+title: 07.1 Arbeitsauftrag - Docker-Compose
 sidebar: auto
 ---
 

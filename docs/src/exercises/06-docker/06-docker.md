@@ -144,6 +144,8 @@ In dem Folder befinden sich 2 Files:
 1. `pyramid.sh`: ein Shell Skript, das eine Pyramide in der Konsole ausgibt
 2. `Dockerfile`: das zuvor beschriebene Dockerfile, das angibt, wie das Skript ausgeführt werden soll
 
+Öffnet hierzu euer `Dockerfile` im `/01-dockerfile-intro` Directory mit einem Editor eurer Wahl:
+
 ``` dockerfile
 FROM  ubuntu:14.04   
 COPY  ./pyramid.sh  /pyramid.sh
@@ -544,6 +546,18 @@ Um die Built-in-Caching Funktionen von Docker optimal zu nutzen, sollte man sich
 2. Commands wie `COPY`, die Daten in den Container kopieren, sollten eher am Ende des Files stehen
 3. Commands, die zeitintensiv sind, sollten zu Beginn des Files stehen
 :::
+
+### 10 Host aufräumen ;)
+Nach dieser Übung, werdet ihr durch das viele Ausprobieren sehr viele Images am Hostsystem erstellt haben. Ihr könnt euch die Images mit `docker images` anzeigen lassen.
+
+Damit wir den Host jetzt wieder etwas aufräumen und keinen unnötigen Speicherplatz besetzen, löschen wir wieder alle Images:
+
+``` shell
+docker stop $(docker ps -a -q)   # Stops all containers
+docker rm $(docker ps -a -q)     # Removes all stopped containers
+docker rmi $(docker images -a)   # Remove all images
+```
+
 
 
 
