@@ -130,12 +130,12 @@ sidebar: auto
 <p>
 <a href="/CloudComputingCWA2021/exercises/06-docker/06-docker" class="nav-link action-button">
   Zur Übung (Teil 2) →
-</a><Badge text="neu" />
+</a>
 </p>
 
 ---
 
-## 07 Cloud Native Development <Badge text="neu" />
+## 07 Cloud Native Development
 - Microservice Architektur
 - 12-Faktor App
 - Service Monitoring
@@ -147,25 +147,41 @@ sidebar: auto
 </p>
 <p>
 <a href="/CloudComputingCWA2021/exercises/06-docker-compose/06-docker-compose" class="nav-link action-button">
-  Zur Übung (Teil 1) →
+  Zur Übung →
 </a>
 </p>
+
+---
+## 08 Cloud Monitoring <Badge text="neu" />
+
+- Periodische Checks
+- Featuretests
+- Metriken
+- Logs
+- Dashboards
+
+<p>
+<a href="/CloudComputingCWA2021/lectures/08-monitoring/08-monitoring" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
 <p>
 <a href="/CloudComputingCWA2021/exercises/07-monitoring/07-monitoring" class="nav-link action-button">
-  Zur Übung (Teil 2) →
+  Zur Übung →
 </a>
 </p>
 
 ---
 
-## 08 Everything-as-a-Service - XaaS
+## 09 Everything-as-a-Service - XaaS
 
 - Vorstellung unterschiedlichster Service Modelle
 - SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS, ...
 
 ---
 
-## 09 Cloud Services
+## 10 Cloud Services
 
 - Application Services
 - Data Services
@@ -178,13 +194,13 @@ sidebar: auto
 
 ---
 
-## 10 Organisatorisch-rechtliche Bedingungen
+## 11 Organisatorisch-rechtliche Bedingungen
 - DSGVO
 - Privacy Shield
   
 ---
 
-## 11 Prüfungsvorbereitung
+## 12 Prüfungsvorbereitung
 
 - Wiederholung der Modulinhalte
 - Ausarbeitung eines Fragenkatalogs
