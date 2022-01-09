@@ -70,5 +70,28 @@ Die Kernanwendung von GitLab ermöglicht es Software-Entwicklungsteams, in Echtz
 [GitLab's Journey From Azure to GCP and How We Made it Happen (Cloud Next '19) VIDEO](https://www.youtube.com/watch?v=Ve_9mbJHPXQ&t=267s)
 
 
+## Was soll recherchiert werden?
+* Hintergründe - Unternehmen 
+  * Seit wann gibt es das Unternehmen?
+  * Welche Dienstleistungen/Services/Produkte bietet das Unternehmen?
+  * Marketshare? (ca.)
+* Warum wurde der Schritt in die Cloud gewagt? Bzw. warum wurde eine andere Cloud Migration Strategie gewählt?
+  * IST-Stand vor der Migration 
+    * Datacenter
+    * anderer Cloud Service Provider
+    * Services
+    * Daten 
+    * …
+  * Probleme? Herausforderungen? 
+  * Erwartungen an die Cloud Migration Strategie? Was wollte das Unternehmen mit dem Schritt erreichen? Ziele?
+* Wie wurde die Migration durchgeführt? Prozess?
+* Welche Migrationsstrategie wurde verfolgt? (Lift & Shift, Replatforming, App Modernization, Rewriting, …)
+* Welche Services der Cloud werden nun genutzt? (VPC, VPN, Container, Container Orchestrierung, VM, Storage, …)
+* Architektur der genutzten Cloud Services
+* Welche/s Deployment Modell/Modelle? (public, private, hybrid, multi)
+* Lessons Learned des Unternehmens
+* Eure Lessons Learned aus der Recherche
+
+
 ## Abgabe
 * Abgabe der Präsentation auf [Moodle]()
