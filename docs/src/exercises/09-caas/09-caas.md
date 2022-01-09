@@ -7,11 +7,6 @@ sidebar: auto
 # {{ $frontmatter.title }}
 
 ## Aufgaben Übersicht
-::: tip Aufgaben
-* Video zu GIT
-  * als Vorbereitung für Einheit am **10.12.**
-* Erstellung VM in Azure und automatisierte Konfiguration mit Cloud-init (Gruppenarbeit) 
-  * Abgabe eines Learning Diary bis **TBD** auf Moodle
-  * Learning Diary: Dokument, das einzelne Schritte mittels Beschreibung und Screenshots dokumentiert
-* Freiwillig - Lernpfade zur Virtualisierung
-:::
+* [Ausführen von Docker-Containern mit Azure Container Instances](https://docs.microsoft.com/de-de/learn/modules/run-docker-with-azure-container-instances/)
+* [Konfigurieren von Azure Container Instances](https://docs.microsoft.com/de-de/learn/modules/configure-azure-container-instances/)
+* [Erstellen und Speichern von Containerimages mit Azure Container Registry](https://docs.microsoft.com/de-de/learn/modules/build-and-store-container-images/)
