@@ -69,7 +69,7 @@ sidebar: auto
 
 ---
 
-## 06.2 Docker Advanced <Badge text="neu" />
+## 06.2 Docker Advanced
 - Docker Recap
 - Dockerfiles
 - Mounting in Containern
@@ -85,7 +85,7 @@ sidebar: auto
 
 ---
 
-## 07.1 Docker-Compose <Badge text="neu" />
+## 07.1 Docker-Compose
 - Docker Compose
 - Microservices
 - Networking zwischen Containern
@@ -100,7 +100,21 @@ sidebar: auto
 
 ---
 
-## 07.2 Prometheus mit Docker <Badge text="neu" />
+## 08 Cloud Migration Case Study - Projekttage <Badge text="neu" />
+- Ausarbeitung einer Case Study
+- Recherche zu Cloud Migration Strategie eines ausgewählten Unternehmens
+- Erstellung Präsentation
+- Präsentation am 14.1.2022
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/08-casestudy/08-casestudy" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+<!--
+## 08.1 Prometheus mit Docker <Badge text="neu" />
 - Prometheus Setup
 - Container mit Prometheus analysieren
 
@@ -111,3 +125,4 @@ sidebar: auto
 </p>
 
 ---
+-->
