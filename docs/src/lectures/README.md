@@ -181,17 +181,12 @@ sidebar: auto
 
 ---
 
-## 10 Cloud Services
+## 10 Serverless
 
-- Application Services
-- Data Services
-- Middleware
-- Analytics und Monitoring
-- Operational Services
-  - Deployment
-  - Logging
-  - DevOps+
-- Serverless
+- Serverlose Architektur
+- Herausforderungen
+- Anwendungsbeispiele
+- Serverless in Azure
 
 ---
 

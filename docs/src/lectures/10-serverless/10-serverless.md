@@ -13,3 +13,6 @@ https://docs.microsoft.com/de-de/dotnet/architecture/serverless/serverless-archi
 Use Cases: https://docs.microsoft.com/de-de/dotnet/architecture/serverless/serverless-business-scenarios
 
 Azure Functions: https://docs.microsoft.com/de-de/dotnet/architecture/serverless/azure-functions
+
+## Ressourcen
+[E-Book Serverless und Azure (gratis)](https://aka.ms/serverlessbookpdf)
