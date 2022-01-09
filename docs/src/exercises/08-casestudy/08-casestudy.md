@@ -94,4 +94,4 @@ Die Kernanwendung von GitLab ermöglicht es Software-Entwicklungsteams, in Echtz
 
 
 ## Abgabe
-* Abgabe der Präsentation auf [Moodle]()
+* Abgabe der Präsentation auf [Moodle](https://moodle.fh-campuswien.ac.at/mod/assign/view.php?id=502148)
