@@ -190,7 +190,8 @@ sidebar: auto
 - Operational Services
   - Deployment
   - Logging
-  - DevOps
+  - DevOps+
+- Serverless
 
 ---
 
