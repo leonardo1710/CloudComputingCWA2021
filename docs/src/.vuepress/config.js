@@ -44,6 +44,10 @@ module.exports = {
       {
         text: 'Übungen',
         link: '/exercises/'
+      },
+      {
+        text: 'Azure Pass',
+        link: '/azure/'
       }
     ],
     sidebar: {  
