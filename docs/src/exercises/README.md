@@ -85,7 +85,7 @@ sidebar: auto
 
 ---
 
-## 07.1 Docker-Compose
+## 07 Docker-Compose
 - Docker Compose
 - Microservices
 - Networking zwischen Containern
@@ -100,7 +100,19 @@ sidebar: auto
 
 ---
 
-## 08 Cloud Migration Case Study - Projekttage <Badge text="neu" />
+## 07.1 Prometheus mit Docker <Badge text="neu" />
+- Prometheus Setup
+- Container mit Prometheus analysieren
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/07-monitoring/07-monitoring" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+
+## 09 Cloud Migration Case Study - Projekttage
 - Ausarbeitung einer Case Study
 - Recherche zu Cloud Migration Strategie eines ausgewählten Unternehmens
 - Erstellung Präsentation
@@ -113,16 +125,4 @@ sidebar: auto
 </p>
 
 ---
-<!--
-## 08.1 Prometheus mit Docker <Badge text="neu" />
-- Prometheus Setup
-- Container mit Prometheus analysieren
 
-<p>
-<a href="/CloudComputingCWA2021/exercises/07-monitoring/07-monitoring" class="nav-link action-button">
-  Zur Übung →
-</a>
-</p>
-
----
--->

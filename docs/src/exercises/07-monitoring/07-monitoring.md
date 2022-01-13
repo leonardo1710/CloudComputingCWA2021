@@ -1,6 +1,6 @@
 ---
 lang: de-DE
-title: 08.1 Arbeitsauftrag - Service Monitoring
+title: 07.1 Arbeitsauftrag - Service Monitoring
 sidebar: auto
 ---
 
@@ -11,8 +11,29 @@ sidebar: auto
 * Mit Prometheus Docker Container analyisieren
 * Prometheus kennenlernen (Funktionen ausprobieren)
 
-## Ressourcen
-* [Docker Setup mit Prometheus](https://docs.docker.com/config/daemon/prometheus/)
+## Tutorial
+Folgendes Tutorial ist zu machen: [Docker Setup mit Prometheus](https://docs.docker.com/config/daemon/prometheus/)
+
+### Hinweise zum Tutorial
+**Start von Prometheus**
+::: warning Start von Prometheus
+Darauf achten, dass folgendes Snippet korrekt eingegeben wird:
+``` shell
+docker service create --replicas 1 --name my-prometheus --mount type=bind,source=/tmp/prometheus.yml,destination=/etc/prometheus/prometheus.yml --publish published=9090,target=9090,protocol=tcp prom/prometheus
+```
+:::
+
+Alternativ kann in dem Folder, in dem ihr das `prometheus.yml` File erstellt habt, ein `Dockerfile` angelegt werden mit folgendem Inhalt:
+``` dockerfile
+FROM prom/prometheus
+ADD prometheus.yml /etc/prometheus/
+```
+Welches anschließend wie gewohnt mittels Docker ausgeführt wird:
+
+``` shell
+docker-compose build
+docker-compose up
+```
 
 ## Abgabe
 * Learning Diary auf Moodle

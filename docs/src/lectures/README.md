@@ -152,7 +152,7 @@ sidebar: auto
 </p>
 
 ---
-## 08 Cloud Monitoring <Badge text="neu" />
+## 07.1 Cloud Monitoring <Badge text="neu" />
 
 - Periodische Checks
 - Featuretests
@@ -174,29 +174,82 @@ sidebar: auto
 
 ---
 
-## 09 Everything-as-a-Service - XaaS
+## 08 Security
+
+* Symmetric Cryptography
+* Hashes/MACs
+* Asymmetric Cryptography
+* Authentication
+* Key Distribution
+* X.509 Certificates
+
+---
+
+## 09 Cloud Migration Case Studies
+
+* Ausarbeitung einer Case Study
+* Recherche zu Cloud Migration Strategie eines ausgewählten Unternehmens
+* Erstellung Präsentation
+* Präsentation am 14.1.2022
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/08-casestudy/08-casestudy" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
+
+## 10 Anything-as-a-Service - XaaS
 
 - Vorstellung unterschiedlichster Service Modelle
 - SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS, ...
 
+<!--
+<p>
+<a href="/CloudComputingCWA2021/lectures/09-xaas/09-xaas" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/09-caas/09-caas" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+-->
+
 ---
 
-## 10 Serverless
-
+## 11 Serverless
 - Serverlose Architektur
 - Herausforderungen
 - Anwendungsbeispiele
 - Serverless in Azure
 
+<!--
+<p>
+<a href="/CloudComputingCWA2021/lectures/10-serverless/10-serverless" class="nav-link action-button">
+  Zur Einheit →
+</a>
+</p>
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/10-faas/10-faas" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+-->
+
 ---
 
-## 11 Organisatorisch-rechtliche Bedingungen
+## 12 Organisatorisch-rechtliche Rahmenbedingungen
 - DSGVO
 - Privacy Shield
   
 ---
 
-## 12 Prüfungsvorbereitung
+## 13 Prüfungsvorbereitung
 
 - Wiederholung der Modulinhalte
 - Ausarbeitung eines Fragenkatalogs
