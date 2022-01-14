@@ -31,8 +31,8 @@ ADD prometheus.yml /etc/prometheus/
 Welches anschließend wie gewohnt mittels Docker ausgeführt wird:
 
 ``` shell
-docker-compose build
-docker-compose up
+docker build -t my-prometheus .
+docker run -p 9090:9090 my-prometheus
 ```
 
 ## Abgabe

@@ -115,6 +115,7 @@ RUN npm i
 # Step 6: run the application
 CMD ["node", "src/index.js", "--port 4000"]
 ```
+![Docker Environment](./img/docker_environment.png)
 
 ## Container Orchestrierung
 Docker und andere Container-Laufzeiten verwalten Container nicht von selbst über mehrere Server hinweg. Docker hat eine Erweiterung namens [Docker Swarm](https://docs.docker.com/engine/swarm/) erhalten, aber der klare Gewinner der *"Container Wars"* ist heutzutage [Kubernetes](https://kubernetes.io/).
