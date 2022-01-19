@@ -11,7 +11,7 @@ sidebar: auto
 * Video zu GIT
   * als Vorbereitung für Einheit am **10.12.**
 * Erstellung VM in Azure und automatisierte Konfiguration mit Cloud-init (Gruppenarbeit) 
-  * Abgabe eines Learning Diary bis **TBD** auf Moodle
+  * Abgabe eines Learning Diary bis **19.01.2022** auf Moodle
   * Learning Diary: Dokument, das einzelne Schritte mittels Beschreibung und Screenshots dokumentiert
 * Freiwillig - Lernpfade zur Virtualisierung
 :::
@@ -24,65 +24,7 @@ az group delete --name myResourceGroup --no-wait --yes
 :::
 
 ## 1. Prerequisites
-- [Studierenden Account](https://azure.microsoft.com/de-de/free/students/) bei Microsoft Azure anlegen
-
-## 2. Azure Intro
-
-**Azure Services**
-![Azure Services](./img/azure-services.png)
-
-### Compute - Hosting von Applikationen und Services
-| Service                          | Beschreibung                                                                                         |
-|----------------------------------|------------------------------------------------------------------------------------------------------|
-| Azure Virtual Machines           | Linux oder Windows Maschinen                                                                         |
-| Azure Virtual Machine Scale Sets | Skalierungstool für VMs                                                                              |
-| Azure Kubernetes Service         | Cluster Management für VMs die containerisierte Applikationen hosten                                 |
-| Azure Service Fabric             | Verteilte Systemplattform für Azure On-Premises                                                      |
-| Azure Batch                      | Managed Service für parallele oder high-performance Programme                                        |
-| Azure Container Instances        | Containerisierte Applikation, die direkt in Azure laufen (Server und VMs werden von Azure verwaltet) |
-| Azure Functions                  | Ereignisgesteuerter, serverless Compute Service                                                      |
-
-### Networking
-Services des Azure Networking helfen bei der Verlinkung von Rechenressourcen und Bereitstellung des Zugriffs auf Applikation. 
-Folgende Services sind ein Auszug der Networking Services:
-
-| Service                   | Beschreibung                                                                             |
-|---------------------------|------------------------------------------------------------------------------------------|
-| Azure Virtual Network     | Setup von VMs mit eingehenden VPN (Virtual Private Network) Verbindungen                 |
-| Azure Load Balancer       | Verteilt eingehende und ausgehende Verbindungen an Service Endpoints (verteilt die Last) |
-| Azure Application Gateway | Über Gateways können mehrere Services über einen Endpoint nach Außen freigegeben werden. |
-| Azure DNS                 | Sehr schneller Bereitstellen von Domains möglich                                         |
-| Azure Firewall            | Sehr gut skalierbare und hochverfügbare Firewall für die Services 
-
-### Storage
-| Service             | Beschreibung                                                                                       |
-|---------------------|----------------------------------------------------------------------------------------------------|
-| Azure Blob storage  | Storage für sehr große Objekte (Speicher), wie bspw. Videos und Bitmaps (Bilddateien)              |
-| Azure File storage  | Agiert wie ein typischer Fileserver                                                                |
-| Azure Queue storage | Ermöglicht Queueing und zuverlässige Zustellung von Nachrichten zwischen Services (Message Queues) |
-| Azure Table storage | Speicher für NoSQL Daten (unstrukturierte Daten)  
-
-### Datenbanken
-Auszug von Datenbank-Services:
-| Service                       | Beschreibung                                        |
-|-------------------------------|-----------------------------------------------------|
-| Azure Cosmos DB               | Global verteilte Datenbank für NoSQL                |
-| Azure SQL Database            | Fully-managed DB                                    |
-| Azure Database for MySQL      | Fully-managed MySQL Datenbank                       |
-| Azure Database for PostgreSQL | Fully-managed PostgreSQL Datenbank                  |
-| Azure Database for MariaDB    | Fully-managed MariaDB Datenbank                     |
-| Azure Cache for Redis         | Fully-managed Service Cache (für Daten Statistiken) |
-
-### Weitere Services
-* **Web**: Hosting von Web Applikation und HTTP-basierten Webservices (Azure App Service, Azure Notification Hub, Azure API Management, ...)
-* **IoT**: Vernetzung und Analyse von IoT-Devices und Sensoren (IoT Central, Azure IoT Hub, IoT Edge)
-* **Big Data**: Verwaltung und Analyse von großen Datenmengen (bsp. Wettersysteme, Genom Forschung, Daten von Kommunikationssystemen)
-* **AI**: Services zum Trainieren, Testen, Entwickeln von Machine Learning Modellen.
-* **DevOps**: Services zum Erstellen einer CI/CD bzw. DevOps Plattform (Pipelines, Git Repositories, Kanban Boards, Testing Services)
-
-### Azure Account und Ressourcen
-
-![Azure Account und Ressourcen](./img/scope-levels.png)
+- [Azure Pass einlösen](/azure/) und Account bei Microsoft Azure anlegen
 
 ## 3. VMs in Azure
 
@@ -314,7 +256,7 @@ Als Vorbereitung für die kommende Einheit bitte folgendes Video zu Version Cont
 - [Virtualisieren der E/A](https://docs.microsoft.com/de-de/learn/modules/cmu-virtualize-input-output/)
 - [Speicher- und Netzwerkvirtualisierung](https://docs.microsoft.com/de-de/learn/modules/cmu-storage-network-virtualization/)
 
-## Azure erweitert
+## 6. Azure erweitert
 
 ### Verfügbare Images in Azure anzeigen
 
@@ -345,3 +287,15 @@ az vm create --resource-group myResourceGroupVM  --name myAutomatedVM --image Ub
 ```shell
 az vm show --resource-group leonsResourceGroup --name leonsVM --query hardwareProfile.vmSize
 ```
+
+## 7. Azure Dokumentation (weitere Azure Tutorials zu VMs)
+
+[Quick Guide - Erstellung einer VM in Azure (Azure CLI)](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-cli)
+
+[Quick Guide - Erstellung einer VM in Azure (Portal)](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
+
+[Tutorials für VMs in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/tutorial-manage-vm) (unterschiedlichste Tutorials - siehe linke Taskleiste)
+
+[Azure Docs](https://docs.microsoft.com/en-us/azure/?product=popular)
+
+[Azure Learn (Learning Paths)](https://docs.microsoft.com/en-us/learn/azure/)
