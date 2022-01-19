@@ -119,7 +119,7 @@ Eine virtuelle Maschine hat in Azure immer einen sogenannten Power State. Dieser
 
 **Power State der VM abfragen**
 ```shell
-az vm get-instance-view --name leonsVM --resource-group leonsResourceGroup --query instanceView.statuses[1 --output table
+az vm get-instance-view --name leonsVM --resource-group leonsResourceGroup --query instanceView.statuses[1] --output table
 ```
 
 ![Power State Shell](./img/show_vm_state.png)
@@ -147,7 +147,7 @@ exit
 Danach muss nur mehr der Port 80 für den Webserver geöffnet und die VM gestartet werden:
 
 ```shell
-az vm open-port --port 80 --resource-group rg --name leonsVM
+az vm open-port --port 80 --resource-group leonsResourceGroup --name leonsVM
 ```
 In einem Browser kann nun die IP-Adresse der VM aufgerufen werden. 
 
