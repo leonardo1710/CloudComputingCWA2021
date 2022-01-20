@@ -126,3 +126,16 @@ sidebar: auto
 
 ---
 
+## 10 Anything-as-a-Service - XaaS
+
+- Ausführen von Docker-Containern mit Azure Container Instances
+- Konfigurieren von Azure Container Instances
+- Erstellen und Speichern von Containerimages mit Azure Container Registry
+- Moodlequiz zu den Tutorials
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/09-caas/09-caas" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+

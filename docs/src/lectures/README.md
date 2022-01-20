@@ -205,7 +205,6 @@ sidebar: auto
 - Vorstellung unterschiedlichster Service Modelle
 - SaaS, FaaS, DBaaS, NaaS, CaaS, IaaS, ...
 
-<!--
 <p>
 <a href="/CloudComputingCWA2021/lectures/09-xaas/09-xaas" class="nav-link action-button">
   Zur Einheit →
@@ -217,7 +216,6 @@ sidebar: auto
   Zur Übung →
 </a>
 </p>
--->
 
 ---
 
