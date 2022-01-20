@@ -225,7 +225,6 @@ sidebar: auto
 - Anwendungsbeispiele
 - Serverless in Azure
 
-<!--
 <p>
 <a href="/CloudComputingCWA2021/lectures/10-serverless/10-serverless" class="nav-link action-button">
   Zur Einheit →
@@ -237,7 +236,6 @@ sidebar: auto
   Zur Übung →
 </a>
 </p>
--->
 
 ---
 

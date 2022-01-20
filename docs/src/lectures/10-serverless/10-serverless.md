@@ -40,8 +40,11 @@ Die Abstraktion bedeutet, dass das DevOps-Team weder Server noch bestimmte Conta
 Zu den Vorteilen von serverloser Implementierung gehören:
 
 **Hohe Dichte:** Viele Instanzen desselben serverlosen Codes können im Vergleich zu Containern oder virtuellen Computern auf demselben Host ausgeführt werden. Die Instanzen werden über mehrere Hosts hinweg skaliert, und es werden horizontale Hochskalierung und Resilienz bereitgestellt.
+
 **Microabrechnung:** Die meisten serverlosen Anbieter rechnen auf der Basis von serverlosen Ausführungen ab, sodass in bestimmten Szenarien massiv Kosten eingespart werden können.
+
 **Sofortige Skalierung:** Serverlose Implementierungen können skaliert werden, um Arbeitsauslastungen automatisch und schnell zu berücksichtigen.
+
 **Kürzere Zeit bis zur Markreife:** Entwickler:innen konzentrieren sich auf Code und führen die Bereitstellung direkt auf der serverlosen Plattform aus. Komponenten können unabhängig voneinander freigegeben werden.
 
 |             | IaaS     | PaaS            | Container          | Serverless                |
@@ -61,7 +64,7 @@ Eine gängige Herausforderung besteht darin, eine vorhandene monolithische Anwen
 ![Serverless Monolith](./img/serverless-monolith-migration.png)
 
 #### Web Applikationen
-Web Applikationen sind hervorragende Kandidaten für serverlose Anwendungen. Heutzutage gibt es zwei gängige Ansätze für Web Apps: servergesteuert und clientgesteuert (z.B. Single-Page-Anwendung oder SPA. Servergesteuerte Web-Apps verwenden in der Regel eine Middlewareschicht, um API-Aufrufe zum Rendern der Web-UI auszugeben. SPA-Anwendungen nehmen Aufrufe der REST-API direkt aus dem Browser vor. In beiden Szenarien können serverlose Instanzen die Middleware- oder REST-API-Anforderung unterstützen, indem die erforderliche Geschäftslogik bereitgestellt wird. Eine gängige Architektur ist die Einrichtung eines schlanken statischen Webservers. Die Single-Page-Anwendung (SPA) stellt HTML-, CSS-, JavaScript- und andere Browserressourcen bereit. Die Web-App stellt dann eine Verbindung mit einem Microservices-Backend her.
+Web Applikationen sind hervorragende Kandidaten für serverlose Anwendungen. Heutzutage gibt es zwei gängige Ansätze für Web Apps: servergesteuert und clientgesteuert (z.B. Single-Page-Anwendung oder SPA). Servergesteuerte Web-Apps verwenden in der Regel eine Middlewareschicht, um API-Aufrufe zum Rendern der Web-UI auszugeben. SPA-Anwendungen nehmen Aufrufe der REST-API direkt aus dem Browser vor. In beiden Szenarien können serverlose Instanzen die Middleware- oder REST-API-Anforderung unterstützen, indem die erforderliche Geschäftslogik bereitgestellt wird. Eine gängige Architektur ist die Einrichtung eines schlanken statischen Webservers. Die Single-Page-Anwendung (SPA) stellt HTML-, CSS-, JavaScript- und andere Browserressourcen bereit. Die Web-App stellt dann eine Verbindung mit einem Microservices-Backend her.
 
 #### Mobile-Backends
 Das ereignisgesteuerte Paradigma von serverlosen Apps macht sie zu idealen Mobile-Backends. Das mobile Gerät löst die Ereignisse aus, und der serverlose Code wird ausgeführt, um Anforderungen zu erfüllen. Beispielsweise senden von Notifications.

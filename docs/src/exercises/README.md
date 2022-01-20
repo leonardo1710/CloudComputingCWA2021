@@ -126,7 +126,7 @@ sidebar: auto
 
 ---
 
-## 10 Anything-as-a-Service - XaaS
+## 10 Container-as-a-Service in Azure
 
 - Ausführen von Docker-Containern mit Azure Container Instances
 - Konfigurieren von Azure Container Instances
@@ -139,3 +139,18 @@ sidebar: auto
 </a>
 </p>
 
+---
+
+## 11 Azure Functions
+* Azure Function Projekt einrichten
+* Projektstruktur verstehen
+* Function lokal ausführen
+* Function in Azure deployen
+
+<p>
+<a href="/CloudComputingCWA2021/exercises/10-faas/10-faas" class="nav-link action-button">
+  Zur Übung →
+</a>
+</p>
+
+---
