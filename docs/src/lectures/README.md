@@ -152,7 +152,7 @@ sidebar: auto
 </p>
 
 ---
-## 07.1 Cloud Monitoring <Badge text="neu" />
+## 07.1 Cloud Monitoring
 
 - Periodische Checks
 - Featuretests
@@ -239,9 +239,17 @@ sidebar: auto
 
 ---
 
-## 12 Organisatorisch-rechtliche Rahmenbedingungen
+## 12 Organisatorisch-rechtliche Rahmenbedingungen <Badge text="neu" />
 - DSGVO
 - Privacy Shield
+- SLIs, SLAs, SLOs
+- IAM - Identity Access Management
+
+<p>
+<a href="https://moodle.fh-campuswien.ac.at/mod/resource/view.php?id=509972" class="nav-link action-button">
+  Zu den Folien →
+</a>
+</p>
   
 ---
 

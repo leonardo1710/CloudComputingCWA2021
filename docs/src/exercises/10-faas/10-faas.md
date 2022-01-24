@@ -137,7 +137,6 @@ Die Response wird jetzt etwas länger dauern, als bei der lokalen Function, da d
   Vergesst nicht, die URL in eure Function URL zu ändern! 
 :::
 
-
 **Windows CMD**
 ``` Windows
 curl -i -X POST -H "Content-Type: application/json" -d "{\"name\":\"Bart\"}" https://myfirstappfunction123456789.azurewebsites.net/api/httpexample
