@@ -7,9 +7,9 @@ sidebar: auto
 # {{ $frontmatter.title }}
 
 ## Cloud Monitoring
-Die oben genannten 12 Faktoren sind zwangsläufig von begrenztem Umfang. Die Verfasser dieser 12 Faktoren haben viele Dinge berücksichtigt, andere jedoch ausgelassen.
+Die im Lecture 7 (Cloud Native) genannten 12 Faktoren sind zwangsläufig von begrenztem Umfang. Die Verfasser dieser 12 Faktoren haben viele Dinge berücksichtigt, andere jedoch ausgelassen.
 
-Einer der wichtigsten Aspekte, der in der obigen Liste nicht berücksichtigt wurde, ist das **Monitoring**. Jeder Entwickler, der an einer Cloud-nativen Umgebung arbeiten möchte, muss die Überwachung der Services berücksichtigen. Schließlich soll der Weg in die Cloud mehr Stabilität bringen und schnelle Entwicklungszyklen ermöglichen.
+Einer der wichtigsten Aspekte, der in der 12-Faktor-Liste nicht berücksichtigt wurde, ist das **Monitoring**. Jeder Entwickler, der an einer Cloud-nativen Umgebung arbeiten möchte, muss die Überwachung der Services berücksichtigen. Schließlich soll der Weg in die Cloud mehr Stabilität bringen und schnelle Entwicklungszyklen ermöglichen.
 
 Cloud Monitoring nutzt manuelle und automatisierte Tools zur Überwachung und Analyse von und Berichterstattung hinsichtlich Verfügbarkeit und Leistung von Websites, Servern, Applikationen und anderer Cloud-Infrastruktur. Zum Beispiel kann man mit Cloud-Monitoring-Tools eine Applikation auf Geschwindigkeit, Funktionalität und Zuverlässigkeit testen und so sichergehen, dass sie optimal läuft.
 
