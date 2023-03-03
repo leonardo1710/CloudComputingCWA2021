@@ -6,7 +6,7 @@ actionLink: /exercises/
 footer: Made by Leon Freudenthaler with ❤️
 ---
 
-**Willkommen auf der Webpage des Moduls Cloud Computing im Modern Cloud Administrator:in Programm!** Auf dieser Page findet ihr erweiterte Unterlagen zu den Inhalten des Moduls (*Lectures*), sowie die Angaben und Tutorials zu den Arbeitsaufträgen (*Übungen*).
+**Willkommen auf der Kurspage des Moduls Cloud Computing im Modern Cloud Administrator:in Programm!** Auf dieser Page findet ihr erweiterte Unterlagen zu den Inhalten des Moduls (*Lectures*), sowie die Angaben und Tutorials zu den Arbeitsaufträgen (*Übungen*).
 ## Aufbau des Moduls
 
 ![Aufbau](./img/aufbau.png)
